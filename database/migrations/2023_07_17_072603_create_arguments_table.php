@@ -15,6 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('name')->nullable();
             $table->string('name_esp')->nullable();
+            $table->string('pick')->nullable();
+            $table->string('tier')->nullable();
+            $table->string('games')->nullable();
+            $table->text('src')->nullable();
             $table->text('description')->nullable();
             $table->text('description_esp')->nullable();
             $table->string('type')->nullable();

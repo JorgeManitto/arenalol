@@ -80,50 +80,7 @@ class ItemController extends Controller
         return redirect('/admin/items')->with(['success' => 'Se ha actualizado el objeto.']); 
     }
 
-    function itemsColect(){
-        $client = new Client();
-
-        try {
-            $response = $client->get('https://ddragon.leagueoflegends.com/cdn/13.14.1/data/en_US/item.json');
-
-            $data = json_decode($response->getBody(), true);
-            // dd($data);
-            foreach ($data['data'] as $key => $item) {
-               
-                Item::create([
-                    'id'            => $key,
-                    'name'        => $item['name'],
-                    'description' => $item['description'],
-                    'plaintext'   => $item['plaintext'],
-                    'image'       => json_encode($item['image']),
-                    'into'        => !empty($item['into']) ? json_encode($item['into']) : '',
-                    'stats'       => json_encode($item['stats']),
-                    'gold'        => json_encode($item['gold']),
-                    'name_esp'          => '',
-                    'description_esp'   => '',
-                    'plaintext_esp'     => '',
-                ]);
-            }
-            $response = $client->get('https://ddragon.leagueoflegends.com/cdn/13.14.1/data/es_AR/item.json');
-
-            $data = json_decode($response->getBody(), true);
-            
-            foreach ($data['data'] as $key => $item) {
-                $itemBase = Item::find($key);
-                $itemBase->update([
-                    'name_esp'          => $item['name'],
-                    'description_esp'   => $item['description'],
-                    'plaintext_esp'     => $item['plaintext'],
-                ]);
-            }
-
-            dd("done");
-            return response()->json($data);
-        } catch (\Exception $e) {
-            dd($e);
-            return response()->json(['error' => 'Error al llamar a la API'], 500);
-        }
-    }
+    
     function delete($id)  {
         Item::destroy($id);
         return redirect('/admin/items')->with(['success'=> 'Se ha eliminado el item.']);

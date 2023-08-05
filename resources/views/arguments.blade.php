@@ -17,6 +17,7 @@
                     @foreach ($argumentsSilver as $argument)
                         <div class="col-lg-2 col-12 mt-3">
                             <div class="block max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700" style="width: 190px;background: #010A13;padding: 10px;border-color: #C89B3C;height: 250px;overflow-y: auto;margin: auto;" >
+                                <img style="width: 100px;margin: auto;" src="{{$argument->src}}" alt="{{$argument->name}}">
                                 <h5 class="mb-2 font-bold tracking-tight text-white mt-5" style="font-size: 14px;text-align: center;">{{$argument->name}}</h5>
                                 <div style="padding: 0 .5em;width: 5em;text-transform: capitalize;margin: 1em auto;" class="bg-lol-gold text-white text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full text-center">{{$argument->type}}</div>
                                 <p class="text-gray-400" style="font-size: 14px;text-align: center">{{$argument->description}}</p>
@@ -27,6 +28,7 @@
                     @foreach ($argumentsGold as $argument)
                         <div class="col-lg-2 col-12 mt-3">
                             <div class="block max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700" style="width: 190px;background: #010A13;padding: 10px;border-color: #C89B3C;height: 250px;overflow-y: auto;margin: auto;" >
+                                <img style="width: 100px;margin: auto;" src="{{$argument->src}}" alt="{{$argument->name}}">
                                 <h5 class="mb-2 font-bold tracking-tight text-white mt-5" style="font-size: 14px;text-align: center;">{{$argument->name}}</h5>
                                 <div style="padding: 0 .5em;width: 5em;text-transform: capitalize;margin: 1em auto;" class="bg-lol-gold text-white text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full text-center">{{$argument->type}}</div>
                                 <p class="text-gray-400" style="font-size: 14px;text-align: center;">{{$argument->description}}</p>
@@ -37,6 +39,7 @@
                     @foreach ($argumentsPrismatic as $argument)
                         <div class="col-lg-2 col-12 mt-3">
                             <div class="block max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700" style="width: 190px;background: #010A13;padding: 10px;border-color: #C89B3C;height: 250px;overflow-y: auto;margin: auto;" >
+                                <img style="width: 100px;margin: auto;" src="{{$argument->src}}" alt="{{$argument->name}}">
                                 <h5 class="mb-2 font-bold tracking-tight text-white mt-5" style="font-size: 14px;text-align: center;">{{$argument->name}}</h5>
                                 <div style="padding: 0 .5em;width: 5em;text-transform: capitalize;margin: 1em auto;" class="bg-lol-gold text-white text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full text-center">{{$argument->type}}</div>
                                 <p class="text-gray-400" style="font-size: 14px;text-align: center;overflow-y: auto;">{{$argument->description}}</p>

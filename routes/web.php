@@ -5,9 +5,11 @@ use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\Pages\ItemController;
 use App\Http\Controllers\Admin\Pages\SingeryController;
 use App\Http\Controllers\Admin\Pages\ArgumentController;
+use App\Http\Controllers\Admin\Pages\ChampionController;
 use App\Http\Controllers\ChampionsController;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\Admin\Pages\TierController;
+use App\Http\Controllers\WebScrapingController;
 use App\Models\Argument;
 use Illuminate\Support\Facades\Route;
 
@@ -23,8 +25,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [FrontendController::class,'index'])->name('inicio');
+Route::get('/synergy/{id}', [FrontendController::class,'synergy'])->name('synergy');
 Route::get('/arguments', [FrontendController::class,'arguments'])->name('arguments');
 
+Route::get('/register', function () {
+    return redirect('/');
+}); 
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -52,7 +58,7 @@ Route::middleware(['auth'])->group(function () {
     Route::post('admin/item-update',[ItemController::class,'update'])->name('itemUpdate');
     Route::post('admin/item-delete/{id}',[ItemController::class,'delete'])->name('itemDelete');
 
-    Route::get('admin/items/colect-items',[ItemController::class,'itemsColect'])->name('itemsColect');
+   
     // END ITEMS
 
     // START SINERGIES
@@ -84,4 +90,28 @@ Route::middleware(['auth'])->group(function () {
     Route::post('admin/tier-update',[TierController::class,'update'])->name('tierUpdate');
     Route::post('admin/tier-delete/{id}',[TierController::class,'destroy'])->name('tierDelete');
     // END TIER
+
+
+     // START CHAMPIONS
+     Route::get('admin/champions',[ChampionController::class,'index'])->name('championPanel');
+     Route::get('admin/champion-create',[ChampionController::class,'create'])->name('championCreate');
+     Route::post('admin/champion-save',[ChampionController::class,'store'])->name('championSave');
+     Route::get('admin/champion-edit/{id}',[ChampionController::class,'edit'])->name('championEdit');
+     Route::post('admin/champion-update',[ChampionController::class,'update'])->name('championUpdate');
+     Route::post('admin/champion-delete/{id}',[ChampionController::class,'destroy'])->name('championDelete');
+ 
+     // END CHAMPIONS
+
+     Route::get('admin/web-scraping',[WebScrapingController::class,'index'])->name('indexScrapper');
+
+     Route::get('admin/web-scraping/colect-stast-champions',[WebScrapingController::class,'collectStatsData'])->name('colectData');
+     Route::get('admin/web-scraping/colect-data-champions', [WebScrapingController::class,'collectDataChampion'])->name('collectDataChampion');
+     Route::get('admin/web-scraping/champions', [WebScrapingController::class,'championsColect'])->name('championsColect');
+
+     Route::get('admin/web-scraping/colect-sinergy', [WebScrapingController::class,'scrapeSinergy'])->name('scrapeSinergy');
+     Route::get('admin/web-scraping/colect-argument', [WebScrapingController::class,'scrapArgument'])->name('scrapArgument');
+
+
+     Route::get('admin/web-scraping/lastVersion', [WebScrapingController::class,'lastVersion'])->name('lastVersion');
+     Route::get('admin/web-scraping/colect-items',[WebScrapingController::class,'itemsColect'])->name('itemsColect');
 });

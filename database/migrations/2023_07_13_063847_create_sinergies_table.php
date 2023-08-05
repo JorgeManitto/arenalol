@@ -27,6 +27,8 @@ return new class extends Migration
             $table->string('first_argument')->nullable();
             $table->string('second_argument')->nullable();
 
+            $table->string('win')->nullable();
+            $table->string('pick')->nullable();
             $table->string('status')->nullable();
             $table->string('tier')->nullable();
             $table->string('dificulty')->nullable();

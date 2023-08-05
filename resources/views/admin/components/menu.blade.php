@@ -61,6 +61,22 @@
               <span class="hide-menu">Tiers</span>
             </a>
           </li>
+          <li class="sidebar-item ">
+            <a class="sidebar-link text-white" href="/admin/champions" aria-expanded="false">
+              <span>
+                <i class="ti ti-cards"></i>
+              </span>
+              <span class="hide-menu">Champions</span>
+            </a>
+          </li>
+          <li class="sidebar-item ">
+            <a class="sidebar-link text-white" href="/admin/web-scraping" aria-expanded="false">
+              <span>
+                <i class="ti ti-cards"></i>
+              </span>
+              <span class="hide-menu">Web Scrapper</span>
+            </a>
+          </li>
           
         </ul>
    

@@ -11,8 +11,12 @@ class Argument extends Model
     protected $fillable = [
     'name',
     'name_esp',
+    'pick',
+    'tier',
+    'games',
     'description',
     'description_esp',
     'type',
+    'src',
     ];
 }

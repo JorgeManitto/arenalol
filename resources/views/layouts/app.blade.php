@@ -5,12 +5,121 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        @if (isset($title))
+            <title>{{$title}}</title>
+        @else
+            <title>ArenaLol</title>
+        @endif
 
-        <!-- Fonts -->
-        {{-- <link rel="preconnect" href="https://fonts.bunny.net"> --}}
-        {{-- <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" /> --}}
         <link rel="stylesheet" href="{{asset('assets/css/champions.css')}}">
+        
+
+        <meta name=robots content="index,follow">
+        <meta name=cache-control content=Public>        
+        <meta name="Generator" content="CMS">  
+  
+        <meta property="fb:pages" content="" />    
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot"  content="index, follow" />
+        <meta name="google" content="index, follow" />
+        <meta name="twitter:card" content="summary_large_image">
+        <script type="application/ld+json">
+            {
+                "@context":"http://schema.org",
+                "@type":"WebSite",
+                "name":"",
+                "@id":"/#website"
+            }
+            </script>
+            <script type="application/ld+json">
+            {
+                "@context":"http://schema.org",
+                "@type":"Organization",
+                "name":"",
+                "url":"",
+                "logo": {
+                "@type":"ImageObject",
+                "url": "", 
+                "width":"226", 
+                "height":"85"
+                },
+                "sameAs":[
+                "",
+                ""
+                ]
+            }
+        </script>
+        @php
+       
+            $keywords = 'ArenaLol, 2v2v2v2,Sinergias ArenaLol,Sinergias Arena,Sinergias League of Legends,Sinergias campeones LoL,Mejores sinergias LoL,Combos League of Legends,Estrategias sinergia Arena,Estrategias sinergia 2v2v2v2,Estrategias sinergia LoL,Sinergias equipo LoL,Sinergias equipo Arena,Sinergias equipo 2v2v2v2,Composiciones Arena,Composiciones League of Legends,Sinergias meta LoL,Guía de sinergias LoL,,Mejores sinergias 2v2v2v2,Counter de sinergias Arena,Counter de sinergias 2v2v2v2,Modo de juego Arena LoL,Arena 8 jugadores LoL,Composiciones Arena LoL,Sinergias para Arena LoL,Mejores combinaciones Arena LoL,Estrategias para modo Arena LoL,Equipos 2 jugadores Arena LoL,Composiciones meta Arena LoL,Argumentos campeones Arena LoL,Habilidades campeones Arena LoL,Estadísticas campeones Arena LoL,Itemización para Arena LoL,Mejores ítems Arena LoL,Guía Arena League of Legends,Tips y trucos Arena LoL,Campeones destacados para Arena LoL,Mejores duplas Arena LoL,Estrategias de equipo Arena LoL,Cómo ganar en el modo Arena LoL,Tier list Arena LoL';
+            $description = 
+            'Descubre las mejores composiciones y sinergias para el emocionante modo de juego Arena en League of Legends. Domina las partidas con equipos conformados por dos jugadores en intensas batallas 2v2. Nuestra guía te proporcionará estrategias, estadísticas y habilidades de campeones, junto con la itemización clave para maximizar tu rendimiento en el campo de batalla. Conviértete en un experto en el meta de Arena y lleva tu juego al siguiente nivel con nuestras recomendaciones. ¡Prepárate para la victoria en este desafiante modo de League of Legends!'      
+            @endphp
+    <meta name="description" content="{{$description}}">                   
+    <meta name="keywords" content="{{$keywords}}" />
+    <meta property="og:description" content="{{$description}}">        
+    <link rel="canonical" href="{{url()->full()}}">       
+    
+    <script type="application/ld+json">
+      {
+        "@context":"http://schema.org",
+        "@type":"WebPage",
+        "headline":"",
+        "url":"/",
+        "datePublished":"2018-08-31T15:46:05-03:00",
+        "dateModified":"2018-10-08T13:55:11-03:00",
+        "author":{
+          "@type":"Organization",
+	        "name":"",
+	        "url":"",
+	        "logo": {
+	          "@type":"ImageObject",
+	          "url": "/assets/logo-226x85.jpg", 
+	          "width":"226", 
+	          "height":"85"
+	        },
+	        "sameAs":[
+	          "",
+	          ""
+	        ]
+        },
+        "publisher":{
+          "@type":"Organization",
+	        "name":"",
+	        "url":"",
+	        "logo": {
+	          "@type":"ImageObject",
+	          "url": "/assets/logo-226x85.jpg", 
+	          "width":"226", 
+	          "height":"85"
+	        },
+	        "sameAs":[
+	          "",
+	          ""
+	        ]
+        },
+        "mainEntityOfPage":"/"
+      }
+    </script>   
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+        
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 

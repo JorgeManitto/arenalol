@@ -21,14 +21,16 @@ class Sinergy extends Model
         'status',
         'tier',
         'dificulty',
+        'win',
+        'pick',
     ];
 
     function items($id) {
         dd($id);
         return Item::find($id)->get();
     }
-    function arguments($id) {
+    function argument($id) {
         
-        return Argument::whereIn('id',$id)->get();
+        return Argument::where('id',$id)->first();
     }
 }

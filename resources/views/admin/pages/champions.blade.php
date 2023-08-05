@@ -1,6 +1,6 @@
 @extends('admin.layout')
 
-@section('title', 'Arguments')
+@section('title', 'Champions')
 
 @section('content')
     <div class="container-fluid">
@@ -12,11 +12,11 @@
       @endif
 
           <div class="mt-1">
-            <a href="argument-create" class="btn btn-success">Agregar</a>
+            <a href="champion-create" class="btn btn-success">Agregar</a>
           </div>
 
         <div class="my-2">
-          <form action="{{ route('argumentPanel', ['id'=>1]) }}" method="get">
+          <form action="{{ route('championPanel', ['id'=>1]) }}" method="get">
             <div class="row">
                 <div class="col-lg-8 col-12">
                     <input type="text" class="form-control mb-1" name="name" value="{{$request->name}}" placeholder="Buscar por nombre">
@@ -35,7 +35,7 @@
         </div>
         <div class="card w-100">
             <div class="card-body p-4">
-              <h5 class="card-title fw-semibold mb-4">Arguments</h5>
+              <h5 class="card-title fw-semibold mb-4">champions</h5>
               <div class="table-responsive">
                 <table class="table text-nowrap mb-0 align-middle">
                   <thead class="text-dark fs-4">
@@ -50,13 +50,13 @@
                         <h6 class="fw-semibold mb-0">Name</h6>
                       </th>
                       <th class="border-bottom-0">
-                        <h6 class="fw-semibold mb-0">Pick</h6>
-                      </th>
-                      <th class="border-bottom-0">
                         <h6 class="fw-semibold mb-0">Tier</h6>
                       </th>
                       <th class="border-bottom-0">
-                        <h6 class="fw-semibold mb-0">Type</h6>
+                        <h6 class="fw-semibold mb-0">Win</h6>
+                      </th>
+                      <th class="border-bottom-0">
+                        <h6 class="fw-semibold mb-0">Pick</h6>
                       </th>
                    
                       <th>
@@ -65,24 +65,25 @@
                     </tr>
                   </thead>
                   <tbody>
-                    @foreach ($arguments as $key => $argument)
+                    @foreach ($champions as $key => $champion)
     
                         <tr>
-                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">{{$argument->id}}</h6></td>
-                        <td class="border-bottom-0"><img src="{{$argument->src}}" alt="{{$argument->name}}" width="48px" height="48px"></td>
-                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">{{$argument->name}}</h6></td>
-                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">{{$argument->pick}}</h6></td>
-                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">{{$argument->tier}}</h6></td>
-                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">{{$argument->type}}</h6></td>
+                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">{{$champion->id}}</h6></td>
+                        
+                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0"><img width="48px" height="48px" src="https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/{{$champion->slug_name}}.png" class="rounded-2" alt="{{$champion->name}}"></h6></td>
+                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">{{$champion->name}}</h6></td>
+                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">{{$champion->tier}}</h6></td>
+                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">{{$champion->win}}</h6></td>
+                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">{{$champion->pick}}</h6></td>
  
                         <td class="flex">
-                            <a href="{{ route('argumentEdit', ['id'=>$argument->id]) }}" class="btn btn-warning">Editar</a>
-                            <button type="button" class="btn btn-danger ml-1" data-bs-toggle="modal" data-bs-target="#modal{{$argument->id}}">
+                            <a href="{{ route('championEdit', ['id'=>$champion->id]) }}" class="btn btn-warning">Editar</a>
+                            <button type="button" class="btn btn-danger ml-1" data-bs-toggle="modal" data-bs-target="#modal{{$champion->id}}">
                               Borrar
                             </button>
                             
                             <!-- Modal -->
-                            <div class="modal fade" id="modal{{$argument->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal fade" id="modal{{$champion->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                               <div class="modal-dialog">
                                 <div class="modal-content">
                                   <div class="modal-header">
@@ -94,9 +95,9 @@
                                     <table class="table text-nowrap mb-0 align-middle">
                                       <tbody>
                                         <tr>
-                                          <td class="border-bottom-0"><h6 class="fw-semibold mb-0">{{$argument->id}}</h6></td>
+                                          <td class="border-bottom-0"><h6 class="fw-semibold mb-0">{{$champion->id}}</h6></td>
                                           <td class="border-bottom-0">
-                                              <p class="mb-0 fw-normal w-50" style="overflow: hidden;">{{$argument->name}}</p>
+                                              <p class="mb-0 fw-normal w-50" style="overflow: hidden;">{{$champion->name}}</p>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -105,7 +106,7 @@
                                   </div>
                                   <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                    <form action="{{ route('argumentDelete', ['id'=>$argument->id]) }}" method="post">
+                                    <form action="{{ route('championDelete', ['id'=>$champion->id]) }}" method="post">
                                       @csrf
                                       <button type="submit" class="btn btn-danger">Eliminar</button>
                                     </form>
@@ -118,7 +119,7 @@
                     @endforeach
                   </tbody>
                 </table>
-                {{$arguments->links()}}
+                {{$champions->links()}}
               </div>
             </div>
           </div>
