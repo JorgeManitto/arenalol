@@ -67,9 +67,6 @@ class WebScrapingController extends Controller
         $html = $response->getBody()->getContents();
 
         $crawler = new Crawler($html);
-
-
-
         // Recorrer cada fila y extraer los datos
         $data = [];
        // Iterar sobre cada fila (tr) en la tabla
@@ -90,7 +87,7 @@ class WebScrapingController extends Controller
 
         // Agregar los datos de la fila al arreglo de datos
         $data[] = $rowData;
-    });
+        });
         // dd( $data );
         foreach ($data as $key => $value) {
             $first_champ = str_replace("'", "", $value[0]);
@@ -113,7 +110,7 @@ class WebScrapingController extends Controller
             }else{
                 $second_champ =ucfirst(strtolower($second_champ));
             }
-
+            
             $params = [
                 'name'              => 'Synergy',
                 'first_champ'       => $first_champ,
@@ -123,7 +120,7 @@ class WebScrapingController extends Controller
                 'first_argument'    => '',
                 'second_argument'   => '',
                 'win'               => $value[6],
-                'pick'              => $value[7],
+                'pick'              => $value[9],
                 'status'            => '1',
                 'tier'              => $value[4],
                 'dificulty'         => '1',
@@ -220,6 +217,26 @@ class WebScrapingController extends Controller
             ];
             Argument::create($params);
         }
+        $archivoJson = base_path().'/arguments.json';
+
+        // Leer el contenido del archivo JSON
+        $jsonData = file_get_contents($archivoJson);
+
+        // Decodificar el contenido JSON en un objeto o matriz PHP
+        $data = json_decode($jsonData);
+
+        foreach ($data as $key => $value) {
+            $params = [
+                'name_esp' => $value->NameEsp,
+                'description' => $value->Effect,
+                'description_esp' => $value->EffectEsp,
+            ];
+            $argument = Argument::where('name',$value->Name)->first();
+            if($argument){
+                $argument->update($params);
+            }
+        }
+
         dd('done');
     }
     function index(){
@@ -294,12 +311,11 @@ class WebScrapingController extends Controller
                         $tier = 'C';
                         break;
                 }
-
                $params = [
                 'tier' => $tier,
                 'win' => $value[7] ,
-                'pick' => $value[8] ,
-                'ban' => $value[9] ,
+                'pick' => $value[10] ,
+                'ban' => $value[11] ,
                ];
              
                 $slug_name = $first_champ;
@@ -340,6 +356,8 @@ class WebScrapingController extends Controller
     
         $data = [];
         $dataChampArgument = [];
+        $best_duo = [];
+        $itemsSituacional = [];
         $crawler->filter('.m-zrui0e')->each(function (Crawler $row, $rowIndex) use (&$data) {
             $championNames = [];
             
@@ -358,6 +376,30 @@ class WebScrapingController extends Controller
     
             $data[] = $championNames;
         });
+
+        // items situacionales
+        $crawler->filter('.m-s76v8c')->each(function (Crawler $row, $rowIndex) use (&$itemsSituacional) {
+            $items = [];
+            
+            $row->filter('img')->each(function (Crawler $image, $imageIndex) use (&$items) { // Corrected variable name here
+                $items[] = $image->attr('alt'); // Corrected variable name here
+            });
+            $itemsSituacional = $items;
+        });
+
+        // mejores duos
+        $crawler->filter('.m-1nhoed7')->each(function (Crawler $row, $rowIndex) use (&$best_duo ) {
+            $duo = [];
+            $row->filter('.ez6mgdl0')->each(function (Crawler $cell) use (&$duo) {
+                $champ =  $cell->filter('.m-v1s0fv')->first()->text();
+                $champ = Champion::where('name',$champ)->first();
+                if($champ){
+                    $duo[] = $champ->id;
+                }
+            });
+
+            $best_duo = $duo;
+        });
         
         $crawler->filter('.m-ue7o5o')->each(function (Crawler $row, $rowIndex) use (&$dataChampArgument) {
             $argumentChamp = [];
@@ -371,6 +413,7 @@ class WebScrapingController extends Controller
 
 
         $finalArrItem = [];
+        $finalitemsSituacional = [];
         $finaldata = [];
         foreach ($data as $key => $value) {
             $finaldata[] = $value[0];
@@ -384,6 +427,25 @@ class WebScrapingController extends Controller
                 'type'  => '1',
                 'id'  => $item->id,
                 'name'  => $item->name,
+                'description'  => $item->description,
+                'description_esp'  => $item->description_esp,
+                'stats'  => $item->stats,
+                'gold'  => $item->gold,
+                'image'  => "https://ddragon.leagueoflegends.com/cdn/$version/img/item/$item->id.png"
+            ];
+        }
+
+        foreach ($itemsSituacional as $key => $value) {
+            $item = Item::where('name',$value)->first();
+            
+            $finalitemsSituacional[] = [
+                'type'  => '1',
+                'id'  => $item->id,
+                'name'  => $item->name,
+                'description'  => $item->description,
+                'description_esp'  => $item->description_esp,
+                'stats'  => $item->stats,
+                'gold'  => $item->gold,
                 'image'  => "https://ddragon.leagueoflegends.com/cdn/$version/img/item/$item->id.png"
             ];
         }
@@ -410,6 +472,8 @@ class WebScrapingController extends Controller
         $params = [
             'build' => json_encode($finalArrItem),
             'argument' => json_encode($finalArrArgument),
+            'best_duo' => json_encode($best_duo),
+            'itemsSituacional' => json_encode($finalitemsSituacional),
         ];
         $champion->update($params);
         
@@ -474,5 +538,25 @@ class WebScrapingController extends Controller
             dd($e);
             return response()->json(['error' => 'Error al llamar a la API'], 500);
         }
+    }
+    function test() {
+        $url = 'https://www.metasrc.com/lol/arena/tier-list/augments'; // URL del sitio que deseas hacer scraping
+        $client = new Client();
+        $response = $client->get($url);
+        $html = $response->getBody()->getContents();
+
+        $crawler = new Crawler($html);
+        $data = [];
+       
+       $crawler->filter('div._ate82z')->each(function (Crawler $row, $rowIndex) use (&$data) {
+        
+            $championNames = [];
+            $row->filter('div.augment-grid-item _yjo52')->each(function (Crawler $cell) use (&$championNames) {
+                $championNames[] = $cell->filter('span, a')->first()->text();
+            });
+
+        });
+ 
+       dd("done");
     }
 }

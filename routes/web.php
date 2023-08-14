@@ -25,26 +25,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [FrontendController::class,'index'])->name('inicio');
-Route::get('/synergy/{id}', [FrontendController::class,'synergy'])->name('synergy');
+Route::get('/duo/{id}-{names}', [FrontendController::class,'synergy'])->name('synergy');
+Route::get('/solo', [FrontendController::class,'solo'])->name('solo');
 Route::get('/arguments', [FrontendController::class,'arguments'])->name('arguments');
+Route::get('/champions', [FrontendController::class,'champions'])->name('champions');
+Route::get('/champion/{name}', [FrontendController::class,'champion'])->name('champion');
 
 Route::get('/register', function () {
     return redirect('/');
 }); 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-    Route::get('/champions', function () {
-        return view('champions');
-    })->name('champions');
 
-    Route::get('/champion/{name}', [ChampionsController::class,'Champion'])->name('champion');
-});
 Route::get('admin/login', [AuthController::class,'formLogin'])->name('formLogin');
 Route::post('admin/setlogin', [AuthController::class,'login'])->name('setLogin');
 
@@ -114,4 +104,6 @@ Route::middleware(['auth'])->group(function () {
 
      Route::get('admin/web-scraping/lastVersion', [WebScrapingController::class,'lastVersion'])->name('lastVersion');
      Route::get('admin/web-scraping/colect-items',[WebScrapingController::class,'itemsColect'])->name('itemsColect');
+
+     Route::get('admin/web-scraping/test',[WebScrapingController::class,'test'])->name('test');
 });

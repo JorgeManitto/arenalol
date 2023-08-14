@@ -49,14 +49,26 @@
                 ]
             }
         </script>
+        
+
+        @if (isset($description))
+            <meta name="description" content="{{$description}}">                   
+        @else
+            @php
+                $description = 'Descubre las mejores composiciones y sinergias para el emocionante modo de juego Arena en League of Legends. Domina las partidas con equipos conformados por dos jugadores en intensas batallas 2v2. Nuestra guía te proporcionará estrategias, estadísticas y habilidades de campeones, junto con la itemización clave para maximizar tu rendimiento en el campo de batalla. Conviértete en un experto en el meta de Arena y lleva tu juego al siguiente nivel con nuestras recomendaciones. ¡Prepárate para la victoria en este desafiante modo de League of Legends!';
+            @endphp
+            <meta name="description" content="{{$description}}">                   
+        @endif
+        @if (isset($keywords))
+            <meta name="description" content="{{$keywords}}">                   
+        @else
         @php
        
-            $keywords = 'ArenaLol, 2v2v2v2,Sinergias ArenaLol,Sinergias Arena,Sinergias League of Legends,Sinergias campeones LoL,Mejores sinergias LoL,Combos League of Legends,Estrategias sinergia Arena,Estrategias sinergia 2v2v2v2,Estrategias sinergia LoL,Sinergias equipo LoL,Sinergias equipo Arena,Sinergias equipo 2v2v2v2,Composiciones Arena,Composiciones League of Legends,Sinergias meta LoL,Guía de sinergias LoL,,Mejores sinergias 2v2v2v2,Counter de sinergias Arena,Counter de sinergias 2v2v2v2,Modo de juego Arena LoL,Arena 8 jugadores LoL,Composiciones Arena LoL,Sinergias para Arena LoL,Mejores combinaciones Arena LoL,Estrategias para modo Arena LoL,Equipos 2 jugadores Arena LoL,Composiciones meta Arena LoL,Argumentos campeones Arena LoL,Habilidades campeones Arena LoL,Estadísticas campeones Arena LoL,Itemización para Arena LoL,Mejores ítems Arena LoL,Guía Arena League of Legends,Tips y trucos Arena LoL,Campeones destacados para Arena LoL,Mejores duplas Arena LoL,Estrategias de equipo Arena LoL,Cómo ganar en el modo Arena LoL,Tier list Arena LoL';
-            $description = 
-            'Descubre las mejores composiciones y sinergias para el emocionante modo de juego Arena en League of Legends. Domina las partidas con equipos conformados por dos jugadores en intensas batallas 2v2. Nuestra guía te proporcionará estrategias, estadísticas y habilidades de campeones, junto con la itemización clave para maximizar tu rendimiento en el campo de batalla. Conviértete en un experto en el meta de Arena y lleva tu juego al siguiente nivel con nuestras recomendaciones. ¡Prepárate para la victoria en este desafiante modo de League of Legends!'      
-            @endphp
-    <meta name="description" content="{{$description}}">                   
-    <meta name="keywords" content="{{$keywords}}" />
+        $keywords = 'ArenaLol, 2v2v2v2,Sinergias ArenaLol,Sinergias Arena,Sinergias League of Legends,Sinergias campeones LoL,Mejores sinergias LoL,Combos League of Legends,Estrategias sinergia Arena,Estrategias sinergia 2v2v2v2,Estrategias sinergia LoL,Sinergias equipo LoL,Sinergias equipo Arena,Sinergias equipo 2v2v2v2,Composiciones Arena,Composiciones League of Legends,Sinergias meta LoL,Guía de sinergias LoL,,Mejores sinergias 2v2v2v2,Counter de sinergias Arena,Counter de sinergias 2v2v2v2,Modo de juego Arena LoL,Arena 8 jugadores LoL,Composiciones Arena LoL,Sinergias para Arena LoL,Mejores combinaciones Arena LoL,Estrategias para modo Arena LoL,Equipos 2 jugadores Arena LoL,Composiciones meta Arena LoL,Argumentos campeones Arena LoL,Habilidades campeones Arena LoL,Estadísticas campeones Arena LoL,Itemización para Arena LoL,Mejores ítems Arena LoL,Guía Arena League of Legends,Tips y trucos Arena LoL,Campeones destacados para Arena LoL,Mejores duplas Arena LoL,Estrategias de equipo Arena LoL,Cómo ganar en el modo Arena LoL,Tier list Arena LoL';
+        @endphp
+            <meta name="keywords" content="{{$keywords}}">                   
+        @endif
+
     <meta property="og:description" content="{{$description}}">        
     <link rel="canonical" href="{{url()->full()}}">       
     
@@ -194,7 +206,65 @@
             .bg-dark{
                 background-color: #2A3547; 
             }
+            .border-champion{
+                background-color: rgba(1, 10, 19,0.8);
+                padding: 0.4em;
+                border-radius: 0.8em;
+                width: 14em;
+                overflow: hidden;
+            }
+            .grid{
+                display: grid;
+                gap: 1em;
+                grid-auto-rows:5rem;
+                grid-template-columns: repeat(auto-fill,minmax(14rem,1fr));
+            }
+            .featured{
+                grid-column: span 1;
+                padding: 1em;
+                border-radius: 1em;
+                display: flex;
+                width: 100%;
+                margin: auto;
+                justify-content: space-between;
+            }
+            .fs-11{
+                font-size: 11px;
+            }
+            .fw-bold{
+                font-weight: bold;
+            }
+            .text-end{
+                text-align: end;
+            }
+            .loader {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                display: inline-block;
+                border-top: 3px solid #FFF;
+                border-right: 3px solid transparent;
+                box-sizing: border-box;
+                animation: rotation 1s linear infinite;
+            }
+
+            @keyframes rotation {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+            } 
+            attention{
+                color: #C89B3C;
+            }
+            maintext li {
+                font-size: 10px;
+            }
+            /* .bajada {display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;} */
         </style>
+        @vite(['resources/css/app.css','resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">
         <x-banner />
@@ -216,7 +286,7 @@
                 {{ $slot }}
             </main>
         </div>
-
+      
         <footer class="bg-lol-dark">
             <!-- Logo -->
             <div class="shrink-0 flex items-center" style="padding: 2em;">
@@ -227,7 +297,7 @@
         </footer>
         @stack('modals')
 
-        @livewireScripts
+        @livewireScripts 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
     </body>
 </html>

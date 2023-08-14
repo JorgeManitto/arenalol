@@ -17,6 +17,7 @@ class Champion extends Model
     'ban',
     'games',
     'build',
+    'itemsSituacional',
     'argument',
     'skill_order',
     'best_duo',
@@ -32,4 +33,12 @@ class Champion extends Model
     'stats',
     'key',
     ];
+    function argument($id) {
+        
+        return Argument::where('id',$id)->first();
+    }
+    function duo($id) {
+        
+        return Champion::where('id',$id)->first();
+    }
 }

@@ -1,128 +1,9 @@
 [
-  {
-    "Name": "Red Buff",
-    "NameEsp": "Bufón Rojo",
-    "Effect": "Gain permanent Red Buff",
-    "EffectEsp": "Obtén el Bufón Rojo de forma permanente",
-    "Type":"silver"
-    },
     {
-    "Name": "Hextech Soul",
-    "NameEsp": "Alma Hextech",
-    "Effect": "Gain soul",
-    "EffectEsp": "Obtén alma",
-    "Type":"silver"
-    },
-    {
-    "Name": "Cloud Soul",
-    "NameEsp": "Alma Nublada",
-    "Effect": "Gain soul",
-    "EffectEsp": "Obtén alma",
-    "Type":"silver"
-    },
-    {
-    "Name": "Chemtech Soul",
-    "NameEsp": "Alma Química",
-    "Effect": "Gain soul",
-    "EffectEsp": "Obtén alma",
-    "Type":"silver"
-    },
-    {
-    "Name": "Blue Buff",
-    "NameEsp": "Bufón Azul",
-    "Effect": "Gain a permanent Blue Buff",
-    "EffectEsp": "Obtén el Bufón Azul de forma permanente",
-    "Type":"silver"
-    },
-    {
-    "Name": "Ionic Spark",
-    "NameEsp": "Chispa Iónica",
-    "Effect": "Enemies who use abilities near you take damage equal to 100 percent of the mana cost",
-    "EffectEsp": "Los enemigos que usen habilidades cerca de ti reciben daño igual al 100 por ciento del costo de maná",
-    "Type":"silver"
-    },
-    {
-    "Name": "Virtuous Cycle",
-    "NameEsp": "Ciclo Virtuoso",
-    "Effect": "Your heals grant extra shield and your shields grant extra healing",
-    "EffectEsp": "Tus curaciones otorgan un escudo adicional y tus escudos otorgan una curación adicional",
-    "Type":"silver"
-    },
-    {
-    "Name": "Vulnerability",
-    "NameEsp": "Vulnerabilidad",
-    "Effect": "Your item and damage over time effects can critically strike. Gain 20 percent crit chance.",
-    "EffectEsp": "Tus efectos de objetos y daño con el tiempo pueden infligir golpes críticos. Obtén un 20 por ciento de probabilidad de golpe crítico.",
-    "Type":"silver"
-    },
-    {
-    "Name": "Ice Cold",
-    "NameEsp": "Frío Como el Hielo",
-    "Effect": "Your slowing effects reduce movement speed by an extra 100",
-    "EffectEsp": "Tus efectos de ralentización reducen la velocidad de movimiento en 100 puntos adicionales",
-    "Type":"silver"
-    },
-    {
-    "Name": "Sweet Tooth",
-    "NameEsp": "Dulce Tentación",
-    "Effect": "Grants 50 gold on healing from a plant and the heal is increased by 50 percent",
-    "EffectEsp": "Otorga 50 de oro al curarte con una planta y la curación se incrementa en un 50 por ciento",
-    "Type":"silver"
-    },
-    {
-    "Name": "Electric Field",
-    "NameEsp": "Campo Eléctrico",
-    "Effect": "Casting a summoner spell damages all enemies within 450 range and grants you 10 percent movement speed for three seconds",
-    "EffectEsp": "Lanzar un hechizo de invocador daña a todos los enemigos dentro de un rango de 450 y te otorga un 10 por ciento de velocidad de movimiento durante tres segundos",
-    "Type": "silver"
-    },
-    {
-    "Name": "Spontaneous Altruism",
-    "NameEsp": "Altruismo Espontáneo",
-    "Effect": "Every 10 seconds your next heal or shield ability is increased by 30 percent",
-    "EffectEsp": "Cada 10 segundos, tu siguiente habilidad de curación o escudo se incrementa en un 30 por ciento",
-    "Type": "silver"
-    },
-    {
-    "Name": "Fast Starter",
-    "NameEsp": "Arranque Rápido",
-    "Effect": "For the first 10 seconds each round, you have 40 ability haste and receive 15 percent less damage",
-    "EffectEsp": "Durante los primeros 10 segundos de cada ronda, obtienes 40 de Celeridad de Habilidad y recibes un 15 por ciento menos de daño",
-    "Type": "silver"
-    },
-    {
-    "Name": "Double-Edged Sword",
-    "NameEsp": "Espada de Doble Filo",
-    "Effect": "You deal 20 percent more damage and take 10 percent more damage",
-    "EffectEsp": "Infliges un 20 por ciento más de daño y recibes un 10 por ciento más de daño",
-    "Type": "silver"
-    },
-    {
-    "Name": "Adaptive Consumer",
-    "NameEsp": "Consumidor Adaptativo",
-    "Effect": "AD and AP from items is converted to Adaptive Force",
-    "EffectEsp": "La AD y AP de los objetos se convierte en Poder Adaptativo",
-    "Type": "silver"
-    },
-    {
-    "Name": "Ocean Soul",
-    "NameEsp": "Alma Oceánica",
-    "Effect": "Gain the Ocean Soul, granting high health and mana regeneration after damaging enemies",
-    "EffectEsp": "Obtén el Alma Oceánica, que otorga una alta regeneración de salud y maná después de dañar a los enemigos",
-    "Type": "silver"
-    },
-    {
-    "Name": "Repulsor",
-    "NameEsp": "Repulsor",
-    "Effect": "When dropping below 60 or 30 percent health, nearby enemies are knocked back",
-    "EffectEsp": "Cuando tu salud cae por debajo del 60 o 30 por ciento, los enemigos cercanos son empujados hacia atrás",
-    "Type": "silver"
-    },
-    {
-    "Name": "Shadow Runner",
-    "NameEsp": "Corredor de las Sombras",
-    "Effect": "After using a movement ability or leaving stealth, gain 300 movement speed for two seconds",
-    "EffectEsp": "Después de usar una habilidad de movimiento o salir del sigilo, obtén 300 de velocidad de movimiento durante dos segundos",
+    "Name": "Witchful Thinking",
+    "NameEsp": "Pensamiento Brujo",
+    "Effect": "Gain 70 Ability Power",
+    "EffectEsp": "Ganas 70 de poder de habilidad.",
     "Type": "silver"
     },
     {
@@ -133,94 +14,10 @@
     "Type": "silver"
     },
     {
-    "Name": "Don’t Blink",
-    "NameEsp": "No Parpadees",
-    "Effect": "Deal more damage to enemies the faster you are than them",
-    "EffectEsp": "Infliges más daño a los enemigos cuanto más rápido eres que ellos",
-    "Type": "silver"
-    },
-    {
-    "Name": "Tormentor",
-    "NameEsp": "Atormentador",
-    "Effect": "Immobilizing enemies applies a burn that deals damage over time and applies on-hits",
-    "EffectEsp": "Inmovilizar a los enemigos aplica un efecto de quemadura que inflige daño con el tiempo y aplica efectos al golpear",
-    "Type": "silver"
-    },
-    {
-    "Name": "Typhoon",
-    "NameEsp": "Tifón",
-    "Effect": "Attacks fire a bolt at an additional target that deals reduced damage and on-hits",
-    "EffectEsp": "Los ataques disparan un proyectil adicional a un objetivo adicional que inflige un daño reducido y efectos al golpear",
-    "Type": "silver"
-    },
-    {
-    "Name": "Deft",
-    "NameEsp": "Ágil",
-    "Effect": "Gain 40 percent attack speed",
-    "EffectEsp": "Obtén un 40 por ciento de velocidad de ataque",
-    "Type": "silver"
-    },
-    {
-    "Name": "Erosion",
-    "NameEsp": "Erosión",
-    "Effect": "Damaging enemies shreds two percent Armor and Magic Resist for four seconds, stacking up to 20 times",
-    "EffectEsp": "Dañar a los enemigos reduce un dos por ciento su Armadura y Resistencia Mágica durante cuatro segundos, acumulable hasta 20 veces",
-    "Type": "silver"
-    },
-    {
-    "Name": "Evocation",
-    "NameEsp": "Evocación",
-    "Effect": "Gain the Evocation Summoner Spell, which lets you channel to restore health and mana",
-    "EffectEsp": "Obtén el hechizo de invocador Evocación, que te permite canalizar para restaurar salud y maná",
-    "Type": "silver"
-    },
-    {
     "Name": "Executioner",
     "NameEsp": "Ejecutor",
-    "Effect": "Deal 10 percent more damage to enemies below 50 percent health, and reset your basic abilities on takedown",
-    "EffectEsp": "Inflige un 10 por ciento más de daño a los enemigos por debajo del 50 por ciento de salud y reinicia tus habilidades básicas al eliminar a un enemigo",
-    "Type": "silver"
-    },
-    {
-    "Name": "Fallen Aegis",
-    "NameEsp": "Égida Caída",
-    "Effect": "Start combat with a Black Shield that blocks magic damage for 15 seconds",
-    "EffectEsp": "Comienza el combate con un Escudo Negro que bloquea el daño mágico durante 15 segundos",
-    "Type": "silver"
-    },
-    {
-    "Name": "Light ’em Up",
-    "NameEsp": "Ilumínalos",
-    "Effect": "Every fourth attack deals additional magic damage",
-    "EffectEsp": "Cada cuarto ataque inflige daño mágico adicional",
-    "Type": "silver"
-    },
-    {
-    "Name": "First Aid Kit",
-    "NameEsp": "Botiquín de Primeros Auxilios",
-    "Effect": "Gain 25 percent heal and shield power",
-    "EffectEsp": "Obtén un 25 por ciento de poder de curación y escudo",
-    "Type": "silver"
-    },
-    {
-    "Name": "Frost Wraith",
-    "NameEsp": "Espíritu Escarchado",
-    "Effect": "Every eight seconds, automatically root nearby enemies for one second",
-    "EffectEsp": "Cada ocho segundos, inmoviliza automáticamente a los enemigos cercanos durante un segundo",
-    "Type": "silver"
-    },
-    {
-    "Name": "Guilty Pleasure",
-    "NameEsp": "Placer Culpable",
-    "Effect": "Immobilizing enemy champions restores five seconds max Health",
-    "EffectEsp": "Inmovilizar a campeones enemigos restaura cinco segundos de Vida máxima",
-    "Type": "silver"
-    },
-    {
-    "Name": "Now You See Me",
-    "NameEsp": "Ahora Me Ves",
-    "Effect": "Gain the Houdini Summoner Spell, which teleports you back to the starting position of your last movement ability",
-    "EffectEsp": "Obtén el hechizo de invocador Houdini, que te teletransporta de vuelta a la posición inicial de tu última habilidad de movimiento",
+    "Effect": "Deal 15 percent more damage to enemies below 50 percent health, and reset your basic abilities on takedown",
+    "EffectEsp": "Inflige un 15 por ciento más de daño a los enemigos por debajo del 50 por ciento de salud y reinicia tus habilidades básicas al eliminar a un enemigo",
     "Type": "silver"
     },
     {
@@ -231,17 +28,10 @@
     "Type": "silver"
     },
     {
-    "Name": "Juice Box",
-    "NameEsp": "Caja de Jugo",
-    "Effect": "Each round, you and your teammate get an additional juice for free",
-    "EffectEsp": "Cada ronda, tú y tu compañero de equipo obtienen un jugo adicional gratis",
-    "Type": "silver"
-    },
-    {
-    "Name": "Midnight Express",
-    "NameEsp": "Expreso de Medianoche",
-    "Effect": "Automatically throw a lantern to your ally every 12 seconds, which can be clicked to dash to you",
-    "EffectEsp": "Lanza automáticamente una linterna a tu aliado cada 12 segundos, la cual se puede hacer clic para lanzarte hacia ti",
+    "Name": "Deft",
+    "NameEsp": "Ágil",
+    "Effect": "Gain 50 percent attack speed",
+    "EffectEsp": "Obtén un 50 por ciento de velocidad de ataque",
     "Type": "silver"
     },
     {
@@ -252,25 +42,25 @@
     "Type": "silver"
     },
     {
-    "Name": "Mountain Soul",
-    "NameEsp": "Alma Montaña",
-    "Effect": "Gain the Mountain Soul, gaining shield after being out of combat for a short time",
-    "EffectEsp": "Obtén el Alma Montaña, que otorga un escudo después de estar fuera de combate durante un corto tiempo",
+    "Name": "Shadow Runner",
+    "NameEsp": "Corredor de las Sombras",
+    "Effect": "After using a movement ability or leaving stealth, gain 300 movement speed for two seconds",
+    "EffectEsp": "Después de usar una habilidad de movimiento o salir del sigilo, obtén 300 de velocidad de movimiento durante dos segundos",
     "Type": "silver"
     },
     {
-    "Name": "Warmup Routine",
-    "NameEsp": "Rutina de Calentamiento",
-    "Effect": "Active Summoner: Channel to increase damage this combat, up to 30 percent",
-    "EffectEsp": "Invocador Activo: Canaliza para aumentar el daño de este combate, hasta un 30 por ciento",
+    "Name": "Contract Killer",
+    "NameEsp": "Asesino a Sueldo",
+    "Effect": "Each round, mark an opponent to take 15 percent more damage and grant an extra 350 gold on death",
+    "EffectEsp": "Cada ronda, marca a un oponente para que reciba un 15 por ciento más de daño y otorgue 350 de oro adicional al morir",
     "Type": "silver"
     },
     {
-    "Name": "Buckle Up",
-    "NameEsp": "Abrochaos",
-    "Effect": "Spawn a Battle Sled on round start",
-    "EffectEsp": "Genera un Trineo de Batalla al inicio de la ronda",
-    "Type": "silver"
+      "Name": "Tank it or leave it",
+      "NameEsp": "Aguanta o Vete",
+      "Effect": "You can Critically Defend using your Crit Chance (max 60% chance), giving you a chance to reduce damage taken by 40%. Gain 20% Crit Chance.",
+      "EffectEsp": "Puedes Defenderte Críticamente usando tu Probabilidad de Golpe Crítico (máx. 60% de probabilidad), dándote la oportunidad de reducir el daño. Obtén un 20% de Probabilidad de Golpe Crítico.",
+      "Type": "golden"
     },
     {
     "Name": "Blunt Force",
@@ -280,18 +70,67 @@
     "Type": "silver"
     },
     {
-    "Name": "Witchful Thinking",
-    "NameEsp": "Pensamiento Brujo",
-    "Effect": "Replace current items with random ones of a higher tier, and gain random items instead of gold during buy phase",
-    "EffectEsp": "Reemplaza los objetos actuales por otros aleatorios de un nivel superior y obtén objetos aleatorios en lugar de oro durante la fase de compra",
+    "Name": "Erosion",
+    "NameEsp": "Erosión",
+    "Effect": "Damaging enemies shreds 1% Armor and Magic Resist for four seconds, stacking up to 20 times",
+    "EffectEsp": "Dañar a los enemigos reduce un 1% su Armadura y Resistencia Mágica durante cuatro segundos, acumulable hasta 20 veces",
     "Type": "silver"
     },
     {
-    "Name": "Castle",
-    "NameEsp": "Castillo",
-    "Effect": "Gain the Castle Summoner Spell, which allows you to swap places with your ally",
-    "EffectEsp": "Obtén el hechizo de invocador Castillo, que te permite intercambiar lugares con tu aliado",
+      "Name": "Light 'em Up!",
+      "NameEsp": "Ilumínalos",
+      "Effect": "Every fourth attack deals additional magic damage",
+      "EffectEsp": "Cada cuarto ataque inflige daño mágico adicional",
+      "Type": "silver"
+    },
+    {
+    "Name": "Tormentor",
+    "NameEsp": "Atormentador",
+    "Effect": "Immobilizing enemies champions applies a Burn, dealing 4% max Health Magic Damage per second for 5 seconds. The Burn Stack infinitely",
+    "EffectEsp": "Inmovilizar a los enemigos aplica un efecto de quemadura que inflige daño con el tiempo y aplica efectos al golpear",
     "Type": "silver"
+    },
+    {
+    "Name": "Ocean Soul",
+    "NameEsp": "Alma Oceánica",
+    "Effect": "Gain the Ocean Soul, granting high health and mana regeneration after damaging enemies",
+    "EffectEsp": "Obtén el Alma Oceánica, que otorga una alta regeneración de salud y maná después de dañar a los enemigos",
+    "Type": "silver"
+    },
+    {
+    "Name": "Guilty Pleasure",
+    "NameEsp": "Placer Culpable",
+    "Effect": "Immobilizing enemy champions restores 4% max Health",
+    "EffectEsp": "Inmovilizar a campeones enemigos restaura 4% de Vida máxima",
+    "Type": "silver"
+    },
+    {
+    "Name": "Fallen Aegis",
+    "NameEsp": "Égida Caída",
+    "Effect": "Start combat with a Black Shield that blocks magic damage for 12 seconds. Black Shield blocks Magic Damage and immobilizing effects.",
+    "EffectEsp": "Comienza el combate con un Escudo Negro que bloquea el daño mágico durante 12 segundos. Escudo Negro bloquea el daño mágico y los efectos de inmovilización.",
+    "Type": "silver"
+    },
+    {
+    "Name": "Ice Cold",
+    "NameEsp": "Frío Como el Hielo",
+    "Effect": "Your slowing effects reduce movement speed by an extra 100",
+    "EffectEsp": "Tus efectos de ralentización reducen la velocidad de movimiento en 100 puntos adicionales",
+    "Type":"silver"
+    },
+    {
+    "Name": "First-Aid Kit",
+    "NameEsp": "Botiquín de Primeros Auxilios",
+    "Effect": "Gain 20% heal and shield power",
+    "EffectEsp": "Obtén un 20% de poder de curación y escudo",
+    "Type": "silver"
+    },
+    {
+    "Name": "Vulnerability",
+    "NameEsp": "Vulnerabilidad",
+    "Effect": "Your item and damage over time effects can critically strike for 50% extra damage. Gain 20 percent crit chance.",
+    "EffectEsp": "Tus efectos de objetos y daño prolongado pueden infligir golpes críticos del 50 % adicional. Obtén un 20 por ciento de probabilidad de golpe crítico.",
+    "Type":"silver"
     },
     {
     "Name": "Buff Buddies",
@@ -301,661 +140,552 @@
     "Type": "silver"
     },
     {
-    "Name": "Contract Killer",
-    "NameEsp": "Asesino a Sueldo",
-    "Effect": "Each round, mark an opponent to take 10 percent more damage and grant an extra 350 gold on death",
-    "EffectEsp": "Cada ronda, marca a un oponente para que reciba un 10 por ciento más de daño y otorgue 350 de oro adicional al morir",
+    "Name": "Frost Wraith",
+    "NameEsp": "Espíritu Escarchado",
+    "Effect": "Every 7 seconds, automatically root nearby enemies for 1 second",
+    "EffectEsp": "Cada 7 segundos, inmoviliza automáticamente a los enemigos cercanos durante 1 segundo",
     "Type": "silver"
     },
-  {
-    "Name": "Apex Inventor",
-    "NameEsp": "Inventor Apex",
-    "Effect": "Gain 200 Item Haste.",
-    "EffectEsp": "Obtén 200 Celeridad de Objetos.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Banner of Command",
-    "NameEsp": "Estandarte de Comando",
-    "Effect": "Active Spell: Increase your teammate's size and grant them 15% HP, AD, AP, and AS for 10s.",
-    "EffectEsp": "Hechizo Activo: Aumenta el tamaño de tu compañero de equipo y otórgales 15% de Vida, DA, AP y AS durante 10s.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Willing Sacrifice",
-    "NameEsp": "Sacrificio Voluntario",
-    "Effect": "When your ally drops below 30% Health, trade some of your health for a Shield on your ally.",
-    "EffectEsp": "Cuando tu aliado cae por debajo del 30% de Vida, intercambia parte de tu vida por un Escudo en tu aliado.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Cannon Fodder",
-    "NameEsp": "Carne de Cañón",
-    "Effect": "You enter combat launching from a cannon.",
-    "EffectEsp": "Entras en combate lanzado desde un cañón.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Celestial Body",
-    "NameEsp": "Cuerpo Celestial",
-    "Effect": "Gain 750 Health, but you deal 10% less damage.",
-    "EffectEsp": "Obtén 750 de Vida, pero infliges un 10% menos de daño.",
-    "Type": "golden"
-  },
-  {
-    "Name": "With Haste",
-    "NameEsp": "Con Celeridad",
-    "Effect": "Gain Move Speed equal to double your Ability Haste.",
-    "EffectEsp": "Obtén Velocidad de Movimiento igual a el doble de tu Celeridad de Habilidad.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Combo Master",
-    "NameEsp": "Maestro de Combos",
-    "Effect": "Gain the Electrocute and Phase Rush Keystone Runes.",
-    "EffectEsp": "Obtén las Runas Clave Electrocute y Phase Rush.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Soul Siphon",
-    "NameEsp": "Sifón de Almas",
-    "Effect": "Gain 20% crit chance and 35% lifesteal on critical strikes.",
-    "EffectEsp": "Obtén un 20% de probabilidad de golpe crítico y un 35% de robo de vida en los golpes críticos.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Tank it or leave it",
-    "NameEsp": "Aguanta o Vete",
-    "Effect": "You can Critically Defend using your Crit Chance (max 60% chance), giving you a chance to reduce damage. Gain 20% Crit Chance.",
-    "EffectEsp": "Puedes Defenderte Críticamente usando tu Probabilidad de Golpe Crítico (máx. 60% de probabilidad), dándote la oportunidad de reducir el daño. Obtén un 20% de Probabilidad de Golpe Crítico.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Die Another Day",
-    "NameEsp": "Morir Otro Día",
-    "Effect": "Gain the Die Another Day Summoner Spell. Die Another Day creates a zone where no unit can die for 4 seconds.",
-    "EffectEsp": "Obtén el Hechizo de Invocador Morir Otro Día. Morir Otro Día crea una zona donde ninguna unidad puede morir durante 4 segundos.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Dawnbringer's Resolve",
-    "NameEsp": "Resolución del Portador del Amanecer",
-    "Effect": "Upon dropping below 50% health, heal for 30% max health over 3s.",
-    "EffectEsp": "Al caer por debajo del 50% de Vida, sana un 30% de tu vida máxima durante 3 segundos.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Ethereal Weapon",
-    "NameEsp": "Arma Etérea",
-    "Effect": "Your Abilities apply on-hit effects.",
-    "EffectEsp": "Tus Habilidades aplican efectos al impactar.",
-    "Type": "golden"
-  },
-  {
-    "Name": "From Beginning to End",
-    "NameEsp": "De Principio a Fin",
-    "Effect": "Gain the First Strike and Dark Harvest Keystone Runes.",
-    "EffectEsp": "Obtén las Runas Clave Primer Golpe y Cosecha Oscura.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Extendo Arm",
-    "NameEsp": "Brazo Extensible",
-    "Effect": "Automatically fire a Blitzcrank hook every 12 seconds at a nearby enemy champion.",
-    "EffectEsp": "Dispara automáticamente un gancho de Blitzcrank cada 12 segundos a un campeón enemigo cercano.",
-    "Type": "golden"
-  },
-  {
-    "Name": "It's Critical",
-    "NameEsp": "Es Crítico",
-    "Effect": "Gain 40% Crit Chance.",
-    "EffectEsp": "Obtén un 40% de Probabilidad de Golpe Crítico.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Dive Bomber",
-    "NameEsp": "Bombardeo en Picado",
-    "Effect": "Your team's first death each round explodes, dealing massive damage.",
-    "EffectEsp": "La primera muerte de tu equipo cada ronda explota, infligiendo un daño masivo.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Lightning Strikes",
-    "NameEsp": "Golpes Relámpago",
-    "Effect": "Gain Attack Damage scaling with your Attack Speed.",
-    "EffectEsp": "Obtén Daño de Ataque que escala con tu Velocidad de Ataque.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Mythical",
-    "NameEsp": "Mítico",
-    "Effect": "You can buy any number of Mythic Items.",
-    "EffectEsp": "Puedes comprar cualquier cantidad de Objetos Míticos.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Keystone Conjurer",
-    "NameEsp": "Conjurador de Runas Clave",
-    "Effect": "Gain the Summon Aery and Arcane Comet Keystone Runes.",
-    "EffectEsp": "Obtén las Runas Clave Invocar Aery y Cometa Arcano.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Outlaw's Grit",
-    "NameEsp": "Determinación del Fuera de la Ley",
-    "Effect": "Your Movement Abilities grant you 15 Armor and Magic Resist. This stacks up to 5 times.",
-    "EffectEsp": "Tus Habilidades de Movimiento te otorgan 15 de Armadura y Resistencia Mágica. Esto se acumula hasta 5 veces.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Perseverance",
-    "NameEsp": "Perseverancia",
-    "Effect": "Gain hugely increased Health Regen, which is further increased while low on Health.",
-    "EffectEsp": "Obtén un aumento enorme en la Regeneración de Vida, que se incrementa aún más cuando tienes poca Vida.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Phenomenal Evil",
-    "NameEsp": "Mal Fenomenal",
-    "Effect": "Permanently gain 1 Ability Power when you hit enemies with Abilities.",
-    "EffectEsp": "Obtén permanentemente 1 Poder de Habilidad cuando golpeas a los enemigos con Habilidades.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Rabble Rousing",
-    "NameEsp": "Agitador",
-    "Effect": "Using an Ability heals you for 2% max Health.",
-    "EffectEsp": "Usar una Habilidad te cura un 2% de tu Vida máxima.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Firebrand",
-    "NameEsp": "Marca de Fuego",
-    "Effect": "Your Attacks apply an infinitely stacking Burn, dealing damage over time.",
-    "EffectEsp": "Tus Ataques aplican una Quemadura que se acumula infinitamente, infligiendo daño con el tiempo.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Recursion",
-    "NameEsp": "Recursión",
-    "Effect": "Gain 45 Ability Haste.",
-    "EffectEsp": "Obtén 45 Celeridad de Habilidad.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Restless Restoration",
-    "NameEsp": "Restauración Inquieta",
-    "Effect": "You constantly heal (based on your max Health) while moving, increased by distance traveled.",
-    "EffectEsp": "Te curas constantemente (según tu Vida máxima) mientras te mueves, aumentando según la distancia recorrida.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Defensive Maneuvers",
-    "NameEsp": "Maniobras Defensivas",
-    "Effect": "Gain the Defensive Maneuvers Summoner Spell. Defensive Maneuvers Casts both Summoner Barrier and Heal on you and your teammate.",
-    "EffectEsp": "Obtén el Hechizo de Invocador Maniobras Defensivas. Maniobras Defensivas lanza tanto Barrera como Sanación de Invocador en ti y tu compañero de equipo.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Scoped Weapons",
-    "NameEsp": "Armas con Mirilla",
-    "Effect": "Gain 250 Attack Range, reduced to 150 for ranged characters.",
-    "EffectEsp": "Obtén 250 de Rango de Ataque, reducido a 150 para personajes de alcance.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Searing Dawn",
-    "NameEsp": "Amanecer Abrasador",
-    "Effect": "Your Abilities mark enemies, causing them to take extra damage from your ally's next effect.",
-    "EffectEsp": "Tus Habilidades marcan a los enemigos, lo que hace que reciban daño adicional del próximo efecto de tu aliado.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Shrink Ray",
-    "NameEsp": "Rayo Reductor",
-    "Effect": "Your Attacks reduce an enemy's damage by 20% for 3 seconds.",
-    "EffectEsp": "Tus Ataques reducen el daño de un enemigo en un 20% durante 3 segundos.",
-    "Type": "golden"
-  },
-  {
-    "Name": "OK Boomerang",
-    "NameEsp": "OK Boomerang",
-    "Effect": "Autocast: Every 7s fire a boomerang at a nearby enemy",
-    "EffectEsp": "Autolanzamiento: Cada 7s lanza un bumerán a un enemigo cercano.",
-    "Type": "golden"
-  },
-  {
-    "Name": "The Brutalizer",
-    "NameEsp": "El Despiadado",
-    "Effect": "Gain 25 Attack Damage, 10 Ability Haste, and 10 Lethality.",
-    "EffectEsp": "Obtén 25 de Daño de Ataque, 10 de Celeridad de Habilidad y 10 de Letalidad.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Thread the Needle",
-    "NameEsp": "Atravesar la Aguja",
-    "Effect": "Gain 30% Armor Penetration and Magic Penetration.",
-    "EffectEsp": "Obtén un 30% de Penetración de Armadura y Penetración Mágica.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Vanish",
-    "NameEsp": "Desvanecerse",
-    "Effect": "Gain the Vanish Summoner Spell. Vanish turns you Invisible.",
-    "EffectEsp": "Obtén el Hechizo de Invocador Desvanecerse. Desvanecerse te vuelve Invisible.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Vengeance",
-    "NameEsp": "Venganza",
-    "Effect": "Gain massively increased damage and Omnivamp while your partner is dead.",
-    "EffectEsp": "Obtén un aumento masivo de daño y Omnirrobo de Vida mientras tu compañero está muerto.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Unholy Grail",
-    "NameEsp": "Santo Grial Profano",
-    "Effect": "Damaging enemies with abilities stores 30% of the damage; your next heal or shield on an ally heals them for the stored amount.",
-    "EffectEsp": "Infligir daño a los enemigos con habilidades almacena un 30% del daño; tu próxima curación o escudo en un aliado los cura por la cantidad almacenada.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Take the Wheel",
-    "NameEsp": "Toma el Control",
-    "Effect": "Replace your current items with random ones of a higher tier. Gain random items instead of gold during the buy phase.",
-    "EffectEsp": "Reemplaza tus objetos actuales por otros aleatorios de un nivel superior. Obtén objetos aleatorios en lugar de oro durante la fase de compra.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Momentous Strike",
-    "NameEsp": "Golpe Trascendental",
-    "Effect": "Generates bonus MS while moving. At max MS, Lee Sin kick the first enemy, you AA.",
-    "EffectEsp": "Genera Velocidad de Movimiento adicional mientras te mueves. Al alcanzar la velocidad máxima, Lee Sin lanza al primer enemigo, tú AA.",
-    "Type": "golden"
-  },
-  {
-    "Name": "In Perfect Tempo",
-    "NameEsp": "En Ritmo Perfecto",
-    "Effect": "Autocast: Every 6s, cast Sona Q or Sona W at random.",
-    "EffectEsp": "Autolanzamiento: Cada 6s, lanza de forma aleatoria la Q o la W de Sona.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Summoning Expert",
-    "NameEsp": "Experto Invocador",
-    "Effect": "Gain 200 Summoner Spell Haste.",
-    "EffectEsp": "Obtén 200 Celeridad de Invocar Hechizo.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Flicker",
-    "NameEsp": "Destello",
-    "Effect": "Autocast: At the start of combat and every 13 seconds, teleport to a random location within the arena and stealth for 1s. Your first stealth each round lasts 3.5s instead.",
-    "EffectEsp": "Autolanzamiento: Al comienzo del combate y cada 13 segundos, teletranspórtate a una ubicación aleatoria dentro de la arena y entra en sigilo durante 1s. Tu primer sigilo cada ronda dura 3.5s en lugar de eso.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Feeling Lucky",
-    "NameEsp": "Sintiéndose Afortunado",
-    "Effect": "Grants 2 random Silver augments.",
-    "EffectEsp": "Otorga 2 mejoras plateadas aleatorias.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Parry",
-    "NameEsp": "Parada",
-    "Effect": "Root yourself: For 1s, all incoming damage is reflected back to your attacker.",
-    "EffectEsp": "Arraígate: Durante 1s, todo el daño entrante se refleja de vuelta a tu atacante.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Nimble",
-    "NameEsp": "Ágil",
-    "Effect": "Gain 30% Dodge Chance.",
-    "EffectEsp": "Obtén un 30% de Probabilidad de Esquivar.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Allure of the Fox",
-    "NameEsp": "Atracción del Zorro",
-    "Effect": "Sniping an enemy charms them for 1s (8s cooldown).",
-    "EffectEsp": "Apuntar a un enemigo lo encanta durante 1s (8s de tiempo de reutilización).",
-    "Type": "golden"
-  },
-  {
-    "Name": "Intimidating Aura",
-    "NameEsp": "Aura Intimidante",
-    "Effect": "Enemies near you lose 25% Tenacity.",
-    "EffectEsp": "Los enemigos cerca de ti pierden un 25% de Tenacidad.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Assimilation",
-    "NameEsp": "Asimilación",
-    "Effect": "Gain 5% of all enemy primary stats on takedown.",
-    "EffectEsp": "Obtén un 5% de todas las estadísticas principales del enemigo al eliminarlo.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Shadow Drafting",
-    "NameEsp": "Borrador de Sombras",
-    "Effect": "You are stealthed while standing behind your ally; taking damage disables this for 2s.",
-    "EffectEsp": "Estás en sigilo mientras te encuentras detrás de tu aliado; recibir daño desactiva esto durante 2s.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Twice as Nice",
-    "NameEsp": "Dos Veces Mejor",
-    "Effect": "Your Per Round Augments activate an additional time, on round start gain 100g or 500xp at random (twice) (affects Blood pact, Castle, Dawnbringer's Resolve, Fallen Aegis, Kamikaze, Repulsor, Ultimate Backup).",
-    "EffectEsp": "Tus Mejoras por Ronda se activan una vez adicional, al comenzar la ronda obtén 100g o 500xp al azar (dos veces) (afecta Pacto de Sangre, Castillo, Resolución del Portador del Amanecer, Égida Caída, Kamikaze, Repulsor, Respaldo Definitivo).",
-    "Type": "golden"
-  },
-  {
-    "Name": "Plating",
-    "NameEsp": "Blindaje",
-    "Effect": "Gain 75 Armor.",
-    "EffectEsp": "Obtén 75 de Armadura.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Runic Bulwark",
-    "NameEsp": "Fuste Rúnico",
-    "Effect": "Gain 75 Magic Resistance.",
-    "EffectEsp": "Obtén 75 de Resistencia Mágica.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Vampirism",
-    "NameEsp": "Vampirismo",
-    "Effect": "Gain 30% Spell Vamp.",
-    "EffectEsp": "Obtén un 30% de Robo de Vida con Hechizos.",
-    "Type": "golden"
-  },
-  {
-    "Name": "Virtuoso's Flourish",
-    "NameEsp": "Florecimiento del Virtuoso",
-    "Effect": "Every 4th hit crits and deals bonus %missing health damage.",
-    "EffectEsp": "Cada 4º golpe tiene probabilidad de golpe crítico y inflige daño adicional (% de Vida perdida).",
-    "Type": "golden"
-  },
-  {
-    "Name": "Accelerating Sorcery",
-    "NameEsp": "Hechicería Acelerante",
-    "Effect": "Using an Ability grants seven Ability Haste, stacking infinitely",
-    "EffectEsp": "Usar una habilidad otorga siete Aceleración de habilidad, acumulable infinitamente",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Back to Basics",
-    "NameEsp": "Volver a lo Básico",
-    "Effect": "Your Ultimate is sealed, but you gain 16 percent increased damage, healing, shielding and 40 AH",
-    "EffectEsp": "Tu definitiva está sellada, pero obtienes un 16% más de daño, curación, escudo y 40 Aceleración de habilidad",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Blade Waltz",
-    "NameEsp": "Vals de la Cuchilla",
-    "Effect": "Gain the Blade Waltz Summoner Spell, making you untargetable while you dash at and damage enemies repeatedly",
-    "EffectEsp": "Obtén el hechizo de invocador Vals de la Cuchilla, volviéndote inalcanzable mientras embistes y dañas repetidamente a los enemigos",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Slow Cooker",
-    "NameEsp": "Cocinero Lento",
-    "Effect": "Every second, apply a stacking Burn to nearby enemy champions scaling with your Max Health stacking infinitely",
-    "EffectEsp": "Cada segundo, aplica una Quemadura acumulativa a los campeones enemigos cercanos, aumentando según tu Vida máxima acumulable infinitamente",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Windspeaker’s Blessing",
-    "NameEsp": "Bendición del Susurro del Viento",
-    "Effect": "Your Healing and Shielding also increases the target’s Armor and Magic Resist for three seconds",
-    "EffectEsp": "Tu Curación y Escudo también aumenta la Armadura y Resistencia Mágica del objetivo durante tres segundos",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Zhonya’s Epiphany",
-    "NameEsp": "Epifanía de Zhonya",
-    "Effect": "Gain the Zhonya’s Epiphany Summoner Spell, which puts you in Stasis for three seconds, rendering you Untargetable and Invulnerable for the duration but also unable to act, and resetting your basic ability cooldowns",
-    "EffectEsp": "Obtén el hechizo de invocador Epifanía de Zhonya, que te pone en Estasis durante tres segundos, volviéndote inalcanzable e invulnerable durante la duración pero también incapaz de actuar, y reinicia los enfriamientos de tus habilidades básicas",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Can’t Touch This",
-    "NameEsp": "No Me Toques",
-    "Effect": "Casting your Ultimate also makes you Invulnerable for a short duration",
-    "EffectEsp": "Lanzar tu Definitiva también te vuelve invulnerable durante un corto periodo de tiempo",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Chauffeur",
-    "NameEsp": "Chófer",
-    "Effect": "You are attached to your ally and gain 100 Ability Haste and 50 Attack Speed, while they gain 15 percent Move Speed",
-    "EffectEsp": "Estás unido a tu aliado y obtienes 100 Aceleración de habilidad y 50 Velocidad de Ataque, mientras que ellos obtienen un 15% de Velocidad de Movimiento",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Circle of Death",
-    "NameEsp": "Círculo de la Muerte",
-    "Effect": "Healing you do deals a portion of the value in Magic Damage to the nearest enemy champion",
-    "EffectEsp": "La curación que haces inflige una porción del valor como Daño Mágico al campeón enemigo más cercano",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Courage of the Colossus",
-    "NameEsp": "Coraje del Coloso",
-    "Effect": "Gain a Shield scaling with max Health after Immobilizing an enemy champion",
-    "EffectEsp": "Obtén un Escudo que aumenta según la Vida máxima después de Inmovilizar a un campeón enemigo",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Eureka",
-    "NameEsp": "Eureka",
-    "Effect": "Gain Ability Haste equal to 20 percent of your Ability Power",
-    "EffectEsp": "Obtén Aceleración de habilidad igual al 20% de tu Poder de habilidad",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Feel the Burn",
-    "NameEsp": "Siente la Quemadura",
-    "Effect": "Gain the Feel the Burn Summoner Spell, casting Ignite and Exhaust on all nearby enemy champions",
-    "EffectEsp": "Obtén el hechizo de invocador Siente la Quemadura, lanzando Ignición y Agotamiento a todos los campeones enemigos cercanos",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Goliath",
-    "NameEsp": "Goliat",
-    "Effect": "Become large, gaining 30 percent Health and 30 percent Adaptive Force at the cost of 50 percent Attack Speed",
-    "EffectEsp": "Conviértete en un gigante, obtén un 30% más de Vida y Fuerza Adaptativa a cambio de una reducción del 50% en la Velocidad de Ataque",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Jeweled Gauntlet",
-    "NameEsp": "Guantelete Engarzado",
-    "Effect": "Your Abilities can Critically Strike, and gain 20 percent Crit Chance",
-    "EffectEsp": "Tus Habilidades pueden realizar Golpes Críticos, y obtienes un 20% de Probabilidad de Golpe Crítico",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Mad Scientist",
-    "NameEsp": "Científico Loco",
-    "Effect": "On round start, you grow large and gain Attack Damage and Health, or tiny and gain Ability Haste and Move Speed",
-    "EffectEsp": "Al comienzo de la ronda, te vuelves grande y obtienes Daño de Ataque y Vida, o te vuelves pequeño y obtienes Aceleración de habilidad y Velocidad de Movimiento",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Master of Duality",
-    "NameEsp": "Maestro de la Dualidad",
-    "Effect": "Your Attacks grant you stacking Ability Power and your Abilities grant you Attack Damage",
-    "EffectEsp": "Tus Ataques te otorgan Poder de habilidad acumulativo y tus Habilidades te otorgan Daño de Ataque",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Infernal Conduit",
-    "NameEsp": "Conducto Infernal",
-    "Effect": "Your abilities apply a bleed dealing physical damage per second over five seconds. Bleed damage you deal refunds two percent of remaining cooldowns on your basic abilities",
-    "EffectEsp": "Tus habilidades aplican una hemorragia que inflige daño físico por segundo durante cinco segundos. El daño de hemorragia que infliges reembolsa un dos por ciento de los enfriamientos restantes en tus habilidades básicas",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Mystic Punch",
-    "NameEsp": "Puñetazo Místico",
-    "Effect": "Your Attacks reduce your cooldowns by one second.",
-    "EffectEsp": "Tus Ataques reducen tus enfriamientos en un segundo.",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Omni-Soul",
-    "NameEsp": "Alma Omnímoda",
-    "Effect": "Gain three random Dragon Souls",
-    "EffectEsp": "Obtén tres Almas de Dragón aleatorias",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Quantum Computing",
-    "NameEsp": "Computación Cuántica",
-    "Effect": "Automatically slash in a circle around you, dealing bonus damage on the outer edge every 15 seconds. Your Automatic Augments are affected by Ability Haste",
-    "EffectEsp": "Realiza automáticamente un corte en círculo a tu alrededor, infligiendo daño adicional en el borde exterior cada 15 segundos. Tus Augmentos Automáticos se ven afectados por la Aceleración de habilidad",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Spirit Link",
-    "NameEsp": "Enlace Espiritual",
-    "Effect": "40 percent of damage dealt to your ally is redirected to you, and 40 percent of healing they receive is given to you as well.",
-    "EffectEsp": "El 40% del daño infligido a tu aliado se redirige a ti, y el 40% de la curación que reciben también se te otorga a ti.",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Symphony of War",
-    "NameEsp": "Sinfonía de la Guerra",
-    "Effect": "Gain the Lethal Tempo and Conqueror Keystone Runes",
-    "EffectEsp": "Obtén las Runas Clave Tempo Letal y Conquistador",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Tap Dancer",
-    "NameEsp": "Bailarín de Tap",
-    "Effect": "Your Attacks grant you 10 Move Speed, stacking infinitely. Gain AS equal to 10 percent of your MS",
-    "EffectEsp": "Tus Ataques te otorgan 10 Velocidad de Movimiento, acumulable infinitamente. Obtén DA igual al 10% de tu VM",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Earthwake",
-    "NameEsp": "Despertar de la Tierra",
-    "Effect": "Your Movement Abilities leave behind a trail that detonates after one second",
-    "EffectEsp": "Tus Habilidades de Movimiento dejan una estela que explota después de un segundo",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Thief’s Gloves",
-    "NameEsp": "Guantes del Ladrón",
-    "Effect": "Gain random items each combat. Stats and damage from items is increased by 20 percent",
-    "EffectEsp": "Obtén objetos aleatorios en cada combate. Las estadísticas y el daño de los objetos se incrementan un 20%",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Trueshot Prodigy",
-    "NameEsp": "Prodigio del Disparo Certero",
-    "Effect": "When you damage a champion from far away, fire a Trueshot Barrage at them",
-    "EffectEsp": "Cuando dañas a un campeón desde lejos, lanza una Lluvia de Disparos Precisos hacia ellos",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Ultimate Revolution",
-    "NameEsp": "Revolución Definitiva",
-    "Effect": "Once per round, refresh your Ultimate Ability after casting it",
-    "EffectEsp": "Una vez por ronda, actualiza tu Habilidad Definitiva después de lanzarla",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Wisdom of Ages",
-    "NameEsp": "Sabiduría de las Edades",
-    "Effect": "Gain one bonus level every other round, and an extra level per Augment round, and your max level is increased to 30",
-    "EffectEsp": "Obtén un nivel de bonificación cada dos rondas, y un nivel extra por cada ronda de Mejora, y tu nivel máximo se incrementa a 30",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Botanical Bully",
-    "NameEsp": "Abusón Botánico",
-    "Effect": "Attacking a plant creates an explosion that deals 15 percent true damage to enemies within range and knocks them back slightly",
-    "EffectEsp": "Atacar una planta crea una explosión que inflige un 15% de daño verdadero a los enemigos dentro del alcance y los empuja ligeramente hacia atrás",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Shitake Happens",
-    "NameEsp": "Shitake Sucede",
-    "Effect": "Three deadly Teemo shrooms spawns randomly in the arena. Enemies and Allies can both trigger it. Your trap effects are increased by 50 percent",
-    "EffectEsp": "Aparecen aleatoriamente tres setas mortales de Teemo en la arena. Tanto los enemigos como los aliados pueden activarlas. Los efectos de tus trampas se incrementan un 50%",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "I’m the Juggernaut",
-    "NameEsp": "Soy el Juggernaut",
-    "Effect": "Your movement speed is low and cannot be altered except by purchasing boots. Gain 50 percent size, 25 percent Health, Armor, Magic Resistance, and Tenacity",
-    "EffectEsp": "Tu velocidad de movimiento es baja y no puede ser modificada excepto al comprar botas. Obtén un 50% de tamaño, un 25% de Vida, Armadura, Resistencia Mágica y Tenacidad",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Summoner’s Roulette",
-    "NameEsp": "Ruleta del Invocador",
-    "Effect": "After casting a Summoner Spell, gain a random new one that’s on cooldown for seven seconds",
-    "EffectEsp": "Después de lanzar un hechizo de invocador, obtén uno nuevo aleatorio que esté en enfriamiento durante siete segundos",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Hug of Death",
-    "NameEsp": "Abrazo de la Muerte",
-    "Effect": "Active Summoner: Suppress yourself and an enemy next to you, dealing heavy damage to both over the course of the channel",
-    "EffectEsp": "Invocador Activo: Suprime a ti mismo y a un enemigo junto a ti, infligiendo un gran daño a ambos durante el transcurso del canal",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Dragon Trainer",
-    "NameEsp": "Entrenador de Dragones",
-    "Effect": "Gain Nomsy to fight alongside you",
-    "EffectEsp": "Obtén a Nomsy para luchar a tu lado",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Blood Brothers",
-    "NameEsp": "Hermanos de Sangre",
-    "Effect": "Draven gains Darius passive and Darius gains Draven passive",
-    "EffectEsp": "Draven obtiene el pasivo de Darius y Darius obtiene el pasivo de Draven",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Arbiter of Freedom",
-    "NameEsp": "Árbitro de la Libertad",
-    "Effect": "Immobilizing an enemy creates a 400 radius zone around you that reduces damage taken by 20 percent for allies within",
-    "EffectEsp": "Inmovilizar a un enemigo crea una zona de radio 400 a tu alrededor que reduce el daño recibido en un 20% para los aliados dentro de ella",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Pass-a-Fist",
-    "NameEsp": "Pasamanos",
-    "Effect": "Your ally’s attacks trigger your on-hit affects at reduced 50 percent damage",
-    "EffectEsp": "Los ataques de tu aliado activan tus efectos al impactar con un daño reducido del 50%",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "4-Leaf Clover",
-    "NameEsp": "Trébol de 4 Hojas",
-    "Effect": "Gain 40 percent Crit Chance and 30 percent Dodge Chance",
-    "EffectEsp": "Obtén un 40% de Probabilidad de Golpe Crítico y un 30% de Probabilidad de Esquiva",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Bombardment",
-    "NameEsp": "Bombardeo",
-    "Effect": "Fire a barrage of cannon shots for the first 10s of combat before launching yourself from the last shot.",
-    "EffectEsp": "Dispara una ráfaga de disparos de cañón durante los primeros 10 segundos de combate antes de lanzarte desde el último disparo.",
-    "Type": "prismatic"
-  },
-  {
-    "Name": "Combat Medic",
-    "NameEsp": "Médico de Combate",
-    "Effect": "Your auto-attacks deal halved damage. The other half is converted to healing split amongst you and your ally. Gain 10 percent AD and AS.",
-    "EffectEsp": "Tus ataques automáticos infligen la mitad del daño. La otra mitad se convierte en curación dividida entre tú y tu aliado. Obtén un 10% de DA y VA.",
-    "Type": "prismatic"
-  }
+    {
+    "Name": "Juice Box",
+    "NameEsp": "Caja de Jugo",
+    "Effect": "Each round, you and your teammate get an additional juice for free",
+    "EffectEsp": "Cada ronda, tú y tu compañero de equipo obtienen un jugo adicional gratis",
+    "Type": "silver"
+    },
+    {
+    "Name": "Repulsor",
+    "NameEsp": "Repulsor",
+    "Effect": "When dropping below 60 or 30 percent health, nearby enemies are knocked back",
+    "EffectEsp": "Cuando tu salud cae por debajo del 60 o 30 por ciento, los enemigos cercanos son empujados hacia atrás",
+    "Type": "silver"
+    },
+    {
+    "Name": "Mountain Soul",
+    "NameEsp": "Alma Montaña",
+    "Effect": "Gain the Mountain Soul, gaining shield after being out of combat for a short time",
+    "EffectEsp": "Obtén el Alma Montaña, que otorga un escudo después de estar fuera de combate durante un corto tiempo",
+    "Type": "silver"
+    },
+    {
+    "Name": "Midnight Express",
+    "NameEsp": "Expreso de Medianoche",
+    "Effect": "Automatically throw a lantern to your ally every 12 seconds, which can be clicked to dash to you",
+    "EffectEsp": "Lanza automáticamente una linterna a tu aliado cada 12 segundos, la cual se puede hacer clic para lanzarte hacia ti",
+    "Type": "silver"
+    },
+    {
+    "Name": "Don't Blink",
+    "NameEsp": "No Parpadees",
+    "Effect": "Deal more damage to enemies the faster you are than them",
+    "EffectEsp": "Infliges más daño a los enemigos cuanto más rápido eres que ellos",
+    "Type": "silver"
+    },
+    {
+    "Name": "Buckle Up",
+    "NameEsp": "Cinturón de seguridad",
+    "Effect": "Spawn a Battle Sled on round start",
+    "EffectEsp": "Genera un Trineo de Batalla al inicio de la ronda",
+    "Type": "silver"
+    },
+    {
+    "Name": "Warmup Routine",
+    "NameEsp": "Rutina de Calentamiento",
+    "Effect": "Active Summoner: Channel to increase your damage by 2% per second, up to 24% max.",
+    "EffectEsp": "Invocador Activo: Canaliza para aumentar tu daño en un 2 % por segundo, hasta un máximo de 24%.",
+    "Type": "silver"
+    },
+    {
+    "Name": "Virtuous Cycle",
+    "NameEsp": "Ciclo Virtuoso",
+    "Effect": "Your heals grant extra 20% shield and your shields grant extra 20% healing",
+    "EffectEsp": "Tus curaciones otorgan un 20% extra de escudo y tus escudos otorgan un 20% extra de curación.",
+    "Type":"silver"
+    },
+    {
+    "Name": "Castle",
+    "NameEsp": "Castillo",
+    "Effect": "Gain the Castle Summoner Spell, which allows you to swap places with your ally",
+    "EffectEsp": "Obtén el hechizo de invocador Castillo, que te permite intercambiar lugares con tu aliado",
+    "Type": "silver"
+    },    
+    {
+    "Name": "Typhoon",
+    "NameEsp": "Tifón",
+    "Effect": "Attacks fire a bolt at an additional target that dealing 30% damage and applying on-hits",
+    "EffectEsp": "Los ataques disparan un rayo a un objetivo adicional que inflige un 30% de daño y aplica impactos.",
+    "Type": "silver"
+    },
+    {
+    "Name": "Evocation",
+    "NameEsp": "Evocación",
+    "Effect": "Gain the Evocation Summoner Spell, which lets you channel to restore health and mana",
+    "EffectEsp": "Obtén el hechizo de invocador Evocación, que te permite canalizar para restaurar salud y maná",
+    "Type": "silver"
+    },
+    {
+      "Name": "Now You See Me",
+      "NameEsp": "Ahora Me Ves",
+      "Effect": "Gain the Now You See Me Summoner Spell, which teleports you back to the starting position of your last movement ability",
+      "EffectEsp": "Obtén el hechizo de invocador Ahora Me Ves, que te teletransporta de vuelta a la posición inicial de tu última habilidad de movimiento",
+      "Type": "silver"
+    },
+    {
+      "Name": "Frozen Foundations",
+      "NameEsp": "Cimientos Gélidos",
+      "Effect": "Summon a wall of ice at target location.",
+      "EffectEsp": "Invoca un muro de hielo en la ubicación objetivo.",
+      "Type": "silver"
+    },
+
+    
+
+    {
+      "Name": "The Brutalizer",
+      "NameEsp": "El Despiadado",
+      "Effect": "Gain 25 Attack Damage, 10 Ability Haste, and 15 Lethality.",
+      "EffectEsp": "Obtén 25 de Daño de Ataque, 10 de Aceleración de Habilidad y 15 de Letalidad.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Thread the Needle",
+      "NameEsp": "Atravesar la Aguja",
+      "Effect": "Gain 25% Armor Penetration and Magic Penetration.",
+      "EffectEsp": "Obtén un 25% de Penetración de Armadura y Penetración Mágica.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Lightning Strikes",
+      "NameEsp": "Golpes Relámpago",
+      "Effect": "Gain 30 Attack Damage per 0.1 Attack Speed.",
+      "EffectEsp": "Obtén 30 de Daño de Ataque por el 0.1 de Velocidad de Ataque.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Outlaw's Grit",
+      "NameEsp": "Determinación del Fuera de la Ley",
+      "Effect": "Your Movement Abilities grant you 15 Armor and Magic Resist. This stacks up to 5 times.",
+      "EffectEsp": "Tus Habilidades de Movimiento te otorgan 15 de Armadura y Resistencia Mágica. Esto se acumula hasta 5 veces.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Combo Master",
+      "NameEsp": "Maestro de Combos",
+      "Effect": "Gain the Electrocute and Phase Rush Keystone Runes.",
+      "EffectEsp": "Obtén las Runas Clave Electrocutar y Fase Veloz.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Recursion",
+      "NameEsp": "Recursión",
+      "Effect": "Gain 60 Ability Haste.",
+      "EffectEsp": "Obtén 60 Aceleración de Habilidad.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Scoped Weapons",
+      "NameEsp": "Armas con Mirilla",
+      "Effect": "Gain 200 Attack Range, reduced to 100 for ranged characters.",
+      "EffectEsp": "Obtén 200 de Rango de Ataque, reducido a 100 para personajes de alcance.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Shrink Ray",
+      "NameEsp": "Rayo Reductor",
+      "Effect": "Your Attacks reduce an enemy's damage by 15% for 3 seconds.",
+      "EffectEsp": "Tus Ataques reducen el daño de un enemigo en un 15% durante 3 segundos.",
+      "Type": "golden"
+    },
+    {
+      "Name": "From Beginning to End",
+      "NameEsp": "De Principio a Fin",
+      "Effect": "Gain the First Strike and Dark Harvest Keystone Runes.",
+      "EffectEsp": "Obtén las Runas Clave Primer Golpe y Cosecha Oscura.",
+      "Type": "golden"
+    },
+    {
+      "Name": "With Haste",
+      "NameEsp": "Con Aceleración",
+      "Effect": "Gain Move Speed equal to double your Ability Haste.",
+      "EffectEsp": "Obtén Velocidad de Movimiento igual a el doble de tu Aceleración de Habilidad.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Rabble Rousing",
+      "NameEsp": "Agitador",
+      "Effect": "Using an Ability heals you for 2% max Health.",
+      "EffectEsp": "Usar una Habilidad te cura un 2% de tu Vida máxima.",
+      "Type": "golden"
+    },
+    {
+      "Name": "OK Boomerang",
+      "NameEsp": "OK Boomerang",
+      "Effect": "Autocast: Every 7s fire a boomerang at a nearby enemy",
+      "EffectEsp": "Autolanzamiento: Cada 7s lanza un bumerán a un enemigo cercano.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Keystone Conjurer",
+      "NameEsp": "Conjurador de Runas Clave",
+      "Effect": "Gain the Summon Aery and Arcane Comet Keystone Runes.",
+      "EffectEsp": "Obtén las Runas Clave Invocar Aery y Cometa Arcano.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Phenomenal Evil",
+      "NameEsp": "Mal Fenomenal",
+      "Effect": "Permanently gain 1 Ability Power when you hit enemies with Abilities.",
+      "EffectEsp": "Obtén permanentemente 1 Poder de Habilidad cuando golpeas a los enemigos con Habilidades.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Dawnbringer's Resolve",
+      "NameEsp": "Resolución del Portador del Amanecer",
+      "Effect": "Upon dropping below 50% health, heal for 30% max health over 3s.",
+      "EffectEsp": "Al caer por debajo del 50% de Vida, sana un 30% de tu vida máxima durante 3 segundos.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Firebrand",
+      "NameEsp": "Marca de Fuego",
+      "Effect": "Your Attacks also Burn Enemies, dealing 3% max health magic damage per second over 5 second. The burn stacks infinitely.",
+      "EffectEsp": "Tus ataques también queman a los enemigos e infligen un 3 % de daño mágico de vida máxima por segundo durante 5 segundos. La quemadura se acumula infinitamente.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Willing Sacrifice",
+      "NameEsp": "Sacrificio Voluntario",
+      "Effect": "When your ally drops below 30% Health, trade some of your health for a Shield on your ally.",
+      "EffectEsp": "Cuando tu aliado cae por debajo del 30% de Vida, intercambia parte de tu vida por un Escudo en tu aliado.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Soul Siphon",
+      "NameEsp": "Sifón de Almas",
+      "Effect": "Gain 20% crit chance and 30% lifesteal on critical strikes.",
+      "EffectEsp": "Obtén un 20% de probabilidad de golpe crítico y un 30% de robo de vida en los golpes críticos.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Perseverance",
+      "NameEsp": "Perseverancia",
+      "Effect": "Gain hugely increased Health Regen, which is further increased while low on Health.",
+      "EffectEsp": "Obtén un aumento enorme en la Regeneración de Vida, que se incrementa aún más cuando tienes poca Vida.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Restless Restoration",
+      "NameEsp": "Restauración Inquieta",
+      "Effect": "You constantly heal (based on your max Health) while moving, increased by distance traveled.",
+      "EffectEsp": "Te curas constantemente (según tu Vida máxima) mientras te mueves, aumentando según la distancia recorrida.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Defensive Maneuvers",
+      "NameEsp": "Maniobras Defensivas",
+      "Effect": "Gain the Defensive Maneuvers Summoner Spell. Defensive Maneuvers Casts both Summoner Barrier and Heal on you and your teammate.",
+      "EffectEsp": "Obtén el Hechizo de Invocador Maniobras Defensivas. Maniobras Defensivas lanza tanto Barrera como Sanación de Invocador en ti y tu compañero de equipo.",
+      "Type": "golden"
+    },
+    {
+      "Name": "It's Critical",
+      "NameEsp": "Es Crítico",
+      "Effect": "Gain 40% Crit Chance.",
+      "EffectEsp": "Obtén un 40% de Probabilidad de Golpe Crítico.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Celestial Body",
+      "NameEsp": "Cuerpo Celestial",
+      "Effect": "Gain 1000 Health, but you deal 10% less damage.",
+      "EffectEsp": "Obtén 1000 de Vida, pero infliges un 10% menos de daño.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Searing Dawn",
+      "NameEsp": "Amanecer Abrasador",
+      "Effect": "Your Abilities mark enemies, causing them to take extra damage from your ally's next effect.",
+      "EffectEsp": "Tus Habilidades marcan a los enemigos, lo que hace que reciban daño adicional del próximo efecto de tu aliado.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Vanish",
+      "NameEsp": "Desvanecerse",
+      "Effect": "Gain the Vanish Summoner Spell. Vanish turns you Invisible.",
+      "EffectEsp": "Obtén el Hechizo de Invocador Desvanecerse. Desvanecerse te vuelve Invisible.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Demon's Dance",
+      "NameEsp": "Desvanecerse",
+      "Effect": "Gain the Fleet Footwork and Grasp of the Undying Keystone Runes.",
+      "EffectEsp": "Obten las runas pies veloz y garras del inmortal.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Banner of Command",
+      "NameEsp": "Estandarte de Comando",
+      "Effect": "Active Spell: Increase your teammate's size and grant them 15% HP, AD, AP, and AS for 10s.",
+      "EffectEsp": "Hechizo Activo: Aumenta el tamaño de tu compañero de equipo y otórgales 15% de Vida, DA, AP y AS durante 10s.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Extendo-Arm",
+      "NameEsp": "Brazo Extensible",
+      "Effect": "Automatically fire a Blitzcrank hook every 12 seconds at a nearby enemy champion.",
+      "EffectEsp": "Dispara automáticamente un gancho de Blitzcrank cada 12 segundos a un campeón enemigo cercano.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Mythical",
+      "NameEsp": "Mítico",
+      "Effect": "You can buy any number of Mythic Items.",
+      "EffectEsp": "Puedes comprar cualquier cantidad de Objetos Míticos.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Die Another Day",
+      "NameEsp": "Morir Otro Día",
+      "Effect": "Gain the Die Another Day Summoner Spell. Die Another Day creates a zone where no unit can die for 4 seconds.",
+      "EffectEsp": "Obtén el Hechizo de Invocador Morir Otro Día. Morir Otro Día crea una zona donde ninguna unidad puede morir durante 4 segundos.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Ethereal Weapon",
+      "NameEsp": "Arma Etérea",
+      "Effect": "Your Abilities apply on-hit effects. 1 second cooldown per target",
+      "EffectEsp": "Tus Habilidades aplican efectos al impactar.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Apex Inventor",
+      "NameEsp": "Inventor Apex",
+      "Effect": "Gain 200 Item Haste.",
+      "EffectEsp": "Obtén 200 Aceleración de Objetos.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Dive Bomber",
+      "NameEsp": "Bombardeo en Picado",
+      "Effect": "Your team's first death each round explodes, dealing massive damage.",
+      "EffectEsp": "La primera muerte de tu equipo cada ronda explota, infligiendo un daño masivo.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Vengeance",
+      "NameEsp": "Venganza",
+      "Effect": "Gain massively increased damage and Omnivamp while your partner is dead.",
+      "EffectEsp": "Obtén un aumento masivo de daño y Robo de Vida mientras tu compañero está muerto.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Cannon Fodder",
+      "NameEsp": "Carne de Cañón",
+      "Effect": "You enter combat launching from a cannon.",
+      "EffectEsp": "Entras en combate lanzado desde un cañón.",
+      "Type": "golden"
+    },
+    {
+      "Name": "Goliath",
+      "NameEsp": "Goliat",
+      "Effect": "Become large, gaining 35% Health and 15% Adaptive Force",
+      "EffectEsp": "Conviértete en un gigante, obtén un 35% más de Vida y 15% Fuerza Adaptativa.",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Jeweled Gauntlet",
+      "NameEsp": "Guantelete Engarzado",
+      "Effect": "Your Abilities can Critically Strike for 140% total damage. Gain 20% Crit Chance",
+      "EffectEsp": "Tus habilidades pueden causar un golpe crítico con un 140% de daño total. Obtén un 20% de probabilidad crítico.",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Eureka",
+      "NameEsp": "Eureka",
+      "Effect": "Gain Ability Haste equal to 20 percent of your Ability Power.",
+      "EffectEsp": "Obtén Aceleración de habilidad igual al 20% de tu Poder de Habilidad.",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Symphony of War",
+      "NameEsp": "Sinfonía de la Guerra",
+      "Effect": "Gain the Lethal Tempo and Conqueror Keystone Runes",
+      "EffectEsp": "Obtén las Runas Clave Tempo Letal y Conquistador",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Earthwake",
+      "NameEsp": "Despertar de la Tierra",
+      "Effect": "Your Movement Abilities leave behind a trail that detonates after one second",
+      "EffectEsp": "Tus Habilidades de Movimiento dejan una estela que explota después de un segundo",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Infernal Conduit",
+      "NameEsp": "Conducto Infernal",
+      "Effect": "Your abilities apply a bleed dealing physical damage per second over five seconds. Bleed damage you deal refunds two percent of remaining cooldowns on your basic abilities",
+      "EffectEsp": "Tus habilidades aplican una hemorragia que inflige daño físico por segundo durante cinco segundos. El daño de hemorragia que infliges reembolsa un dos por ciento de los enfriamientos restantes en tus habilidades básicas",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Blade Waltz",
+      "NameEsp": "Vals de la Cuchilla",
+      "Effect": "Gain the Blade Waltz Summoner Spell, making you untargetable while you dash at and damage enemies repeatedly",
+      "EffectEsp": "Obtén el hechizo de invocador Vals de la Cuchilla, volviéndote inalcanzable mientras embistes y dañas repetidamente a los enemigos",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Omni Soul",
+      "NameEsp": "Alma Omnímoda",
+      "Effect": "Gain three random Dragon Souls",
+      "EffectEsp": "Obtén tres Almas de Dragón aleatorias",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Quantum Computing",
+      "NameEsp": "Computación Cuántica",
+      "Effect": "Automatically slash in a circle around you, dealing bonus damage on the outer edge every 15 seconds. Your Automatic Augments are affected by Ability Haste",
+      "EffectEsp": "Realiza automáticamente un corte en círculo a tu alrededor, infligiendo daño adicional en el borde exterior cada 15 segundos. Tus Augmentos Automáticos se ven afectados por la Aceleración de habilidad",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Mad Scientist",
+      "NameEsp": "Científico Loco",
+      "Effect": "On round start, you grow large and gain Attack Damage and Health, or tiny and gain Ability Haste and Move Speed",
+      "EffectEsp": "Al comienzo de la ronda, te vuelves grande y obtienes Daño de Ataque y Vida, o te vuelves pequeño y obtienes Aceleración de habilidad y Velocidad de Movimiento",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Windspeaker's Blessing",
+      "NameEsp": "Bendición del Susurro del Viento",
+      "Effect": "Your Healing and Shielding also increases the target's Armor and Magic Resist for 3 seconds",
+      "EffectEsp": "Tu Curación y Escudo también aumenta la Armadura y Resistencia Mágica del objetivo durante 3 segundos",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Wisdom of Ages",
+      "NameEsp": "Sabiduría de las Edades",
+      "Effect": "Gain 1 level now, and 1 bonus level every other round. Your level cap is removed",
+      "EffectEsp": "Gana 1 nivel ahora y 1 nivel de bonificación cada dos rondas. Se elimina tu límite de nivel",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Spirit Link",
+      "NameEsp": "Enlace Espiritual",
+      "Effect": "40 percent of damage dealt to your ally is redirected to you, and 40 percent of healing they receive is given to you as well.",
+      "EffectEsp": "El 40% del daño infligido a tu aliado se redirige a ti, y el 40% de la curación que reciben también se te otorga a ti.",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Ultimate Revolution",
+      "NameEsp": "Revolución Definitiva",
+      "Effect": "Once per round, refresh your Ultimate Ability after casting it",
+      "EffectEsp": "Una vez por ronda, obtienes tu Habilidad Definitiva después de lanzarla",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Dashing",
+      "NameEsp": "Deslizamiento",
+      "Effect": "Your dash, leap, blink or teleport Abilities gain 200 Ability Haste.",
+      "EffectEsp": "Tus Habilidades de Movimiento ganan 200 de aceleración de habilidad.",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Feel the Burn",
+      "NameEsp": "Siente la Quemadura",
+      "Effect": "Gain the Feel the Burn Summoner Spell, casting Ignite and Exhaust on all nearby enemy champions",
+      "EffectEsp": "Obtén el hechizo de invocador Siente la Quemadura, lanzando Ignición y Agotamiento a todos los campeones enemigos cercanos",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Courage of the Colossus",
+      "NameEsp": "Coraje del Coloso",
+      "Effect": "Gain a Shield scaling with max Health after Immobilizing an enemy champion",
+      "EffectEsp": "Obtén un Escudo que aumenta según la Vida máxima después de Inmovilizar a un campeón enemigo",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Tap Dancer",
+      "NameEsp": "Bailarín de Tap",
+      "Effect": "Your Attacks grant you 10 Move Speed, stacking infinitely. Gain AS equal to 10 percent of your MS",
+      "EffectEsp": "Tus Ataques te otorgan 10 Velocidad de Movimiento, acumulable infinitamente. Obtén DA igual al 10% de tu VM",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Can't Touch This",
+      "NameEsp": "No Me Toques",
+      "Effect": "Casting your Ultimate also makes you Invulnerable for a short duration",
+      "EffectEsp": "Lanzar tu Definitiva también te vuelve invulnerable durante un corto periodo de tiempo",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Trueshot Prodigy",
+      "NameEsp": "Prodigio del Disparo Certero",
+      "Effect": "When you damage a champion from far away, fire a Trueshot Barrage at them",
+      "EffectEsp": "Cuando dañas a un campeón desde lejos, lanza una Lluvia de Disparos Precisos hacia ellos",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Mystic Punch",
+      "NameEsp": "Puñetazo Místico",
+      "Effect": "Your Attacks reduce your cooldowns by 1 second.",
+      "EffectEsp": "Tus Ataques reducen tus enfriamientos en 1 segundo.",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Slow Cooker",
+      "NameEsp": "Cocinero Lento",
+      "Effect": "Every second, apply a stacking Burn to nearby enemy champions scaling with your Max Health stacking infinitely",
+      "EffectEsp": "Cada segundo, aplica una Quemadura acumulativa a los campeones enemigos cercanos, aumentando según tu Vida máxima acumulable infinitamente",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Accelerating Sorcery",
+      "NameEsp": "Hechicería Acelerante",
+      "Effect": "Using an Ability grants 8 Ability Haste, stacking infinitely",
+      "EffectEsp": "Usar una habilidad otorga 8 de Aceleración de habilidad, acumulable infinitamente",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Master of Duality",
+      "NameEsp": "Maestro de la Dualidad",
+      "Effect": "Your Attacks grant you stacking Ability Power and your Abilities grant you Attack Damage",
+      "EffectEsp": "Tus Ataques te otorgan Poder de habilidad acumulativo y tus Habilidades te otorgan Daño de Ataque",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Chauffeur",
+      "NameEsp": "Chófer",
+      "Effect": "You are attached to your ally and gain 100 Ability Haste and 50 Attack Speed.",
+      "EffectEsp": "Estás unido a tu aliado y obtienes 100 Aceleración de habilidad y 50 Velocidad de Ataque.",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Circle of Death",
+      "NameEsp": "Círculo de la Muerte",
+      "Effect": "Healing you do deals a portion of the value in Magic Damage to the nearest enemy champion",
+      "EffectEsp": "La curación que haces inflige una porción del valor como Daño Mágico al campeón enemigo más cercano",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Back to Basics",
+      "NameEsp": "Volver a lo Básico",
+      "Effect": "Your Ultimate is sealed, but you gain 35% increased damage, healing, shielding and 60 AH",
+      "EffectEsp": "Tu definitiva está sellada, pero obtienes un 35% más de daño, curación, escudo y 60 Aceleración de habilidad",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Zhonya's Epiphany",
+      "NameEsp": "Epifanía de Zhonya",
+      "Effect": "Gain the Zhonya's Epiphany Summoner Spell, which puts you in Stasis for 3 seconds, rendering you Untargetable and Invulnerable for the duration but also unable to act, and resetting your basic ability cooldowns",
+      "EffectEsp": "Obtén el hechizo de invocador Epifanía de Zhonya, que te pone en Estasis durante 3 segundos, volviéndote inalcanzable e invulnerable durante la duración pero también incapaz de actuar, y reinicia los enfriamientos de tus habilidades básicas",
+      "Type": "prismatic"
+    },
+    {
+      "Name": "Thief's Gloves",
+      "NameEsp": "Guantes del Ladrón",
+      "Effect": "Gain random items each combat. Stats and damage from items is increased by 30%.",
+      "EffectEsp": "Obtén objetos aleatorios en cada combate. Las estadísticas y el daño de los objetos se incrementan un 30%.",
+      "Type": "prismatic"
+    }
 ]

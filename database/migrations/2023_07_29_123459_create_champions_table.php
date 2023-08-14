@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('games')->nullable();
 
             $table->text('build')->nullable();
+            $table->text('itemsSituacional')->nullable();
             $table->text('argument')->nullable();
             $table->text('skill_order')->nullable();
             $table->text('best_duo')->nullable();
