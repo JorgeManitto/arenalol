@@ -1,11 +1,11 @@
 <x-app-layout>
     <x-slot name="title">
-        Champions - ArenaLol
+        Champions TierList - ArenaLol
        </x-slot>
     <x-slot name="header">
         <div class="row">
             <h2 class="col-lg-10 font-semibold text-xl text-lol-gold leading-tight">
-                {{ __('Champions') }}
+                {{ __('Champions TierList') }}
                 </h2>
             <div class="col-lg-2" style="text-align: end;">Live {{$version}}</div>
         </div>

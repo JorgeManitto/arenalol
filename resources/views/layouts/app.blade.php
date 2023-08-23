@@ -8,7 +8,7 @@
         @if (isset($title))
             <title>{{$title}}</title>
         @else
-            <title>ArenaLol</title>
+            <title>ArenaLol Tier List</title>
         @endif
 
         <link rel="stylesheet" href="{{asset('assets/css/champions.css')}}">
@@ -64,7 +64,7 @@
         @else
         @php
        
-        $keywords = 'ArenaLol, 2v2v2v2,Sinergias ArenaLol,Sinergias Arena,Sinergias League of Legends,Sinergias campeones LoL,Mejores sinergias LoL,Combos League of Legends,Estrategias sinergia Arena,Estrategias sinergia 2v2v2v2,Estrategias sinergia LoL,Sinergias equipo LoL,Sinergias equipo Arena,Sinergias equipo 2v2v2v2,Composiciones Arena,Composiciones League of Legends,Sinergias meta LoL,Guía de sinergias LoL,,Mejores sinergias 2v2v2v2,Counter de sinergias Arena,Counter de sinergias 2v2v2v2,Modo de juego Arena LoL,Arena 8 jugadores LoL,Composiciones Arena LoL,Sinergias para Arena LoL,Mejores combinaciones Arena LoL,Estrategias para modo Arena LoL,Equipos 2 jugadores Arena LoL,Composiciones meta Arena LoL,Argumentos campeones Arena LoL,Habilidades campeones Arena LoL,Estadísticas campeones Arena LoL,Itemización para Arena LoL,Mejores ítems Arena LoL,Guía Arena League of Legends,Tips y trucos Arena LoL,Campeones destacados para Arena LoL,Mejores duplas Arena LoL,Estrategias de equipo Arena LoL,Cómo ganar en el modo Arena LoL,Tier list Arena LoL';
+        $keywords = 'TierList,tier-list,ArenaLol, 2v2v2v2,Sinergias ArenaLol,Sinergias Arena,Sinergias League of Legends,Sinergias campeones LoL,Mejores sinergias LoL,Combos League of Legends,Estrategias sinergia Arena,Estrategias sinergia 2v2v2v2,Estrategias sinergia LoL,Sinergias equipo LoL,Sinergias equipo Arena,Sinergias equipo 2v2v2v2,Composiciones Arena,Composiciones League of Legends,Sinergias meta LoL,Guía de sinergias LoL,,Mejores sinergias 2v2v2v2,Counter de sinergias Arena,Counter de sinergias 2v2v2v2,Modo de juego Arena LoL,Arena 8 jugadores LoL,Composiciones Arena LoL,Sinergias para Arena LoL,Mejores combinaciones Arena LoL,Estrategias para modo Arena LoL,Equipos 2 jugadores Arena LoL,Composiciones meta Arena LoL,Argumentos campeones Arena LoL,Habilidades campeones Arena LoL,Estadísticas campeones Arena LoL,Itemización para Arena LoL,Mejores ítems Arena LoL,Guía Arena League of Legends,Tips y trucos Arena LoL,Campeones destacados para Arena LoL,Mejores duplas Arena LoL,Estrategias de equipo Arena LoL,Cómo ganar en el modo Arena LoL,Tier list Arena LoL';
         @endphp
             <meta name="keywords" content="{{$keywords}}">                   
         @endif

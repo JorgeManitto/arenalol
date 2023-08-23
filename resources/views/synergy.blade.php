@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="title">
-      {{'Duo'.' '.$synergy->first_name.' - '.$synergy->second_name}}
+      {{'Duo'.' '.$synergy->first_name.' - '.$synergy->second_name}} TierList
     </x-slot>
     <x-slot name="description">
         Descubre las mejores composiciones y sinergias para {{$synergy->first_name.' y '.$synergy->second_name}} del juego Arena en League of Legends. Domina las partidas con equipos conformados por dos jugadores en intensas batallas 2v2. Nuestra guía te proporcionará estrategias, estadísticas y habilidades de campeones, junto con la itemización clave para maximizar tu rendimiento en el campo de batalla. Conviértete en un experto en el meta de Arena y lleva tu juego al siguiente nivel con nuestras recomendaciones. ¡Prepárate para la victoria en este desafiante modo de League of Legends!
@@ -11,7 +11,7 @@
     <x-slot name="header">
         <div class="row">
             <h2 class="col-lg-10 font-semibold text-xl text-lol-gold leading-tight">
-                {{ __('Duo'.' '.$synergy->first_name.' - '.$synergy->second_name) }}
+                {{ __('Duo'.' '.$synergy->first_name.' - '.$synergy->second_name) }} TierList
                 </h2>
             <div class="col-lg-2" style="text-align: end;">Live {{$version}}</div>
         </div>
