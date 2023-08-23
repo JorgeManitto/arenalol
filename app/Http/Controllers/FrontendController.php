@@ -40,7 +40,7 @@ class FrontendController extends Controller
         return view('synergy',compact('synergy','version'));
     }
     function lastVersion() {
-        return '13.15.1';
+        return '13.16.1';
         // $allVerions = "https://ddragon.leagueoflegends.com/api/versions.json";
         // $client = new Client();
 

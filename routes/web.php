@@ -34,6 +34,9 @@ Route::get('/champion/{name}', [FrontendController::class,'champion'])->name('ch
 Route::get('/register', function () {
     return redirect('/');
 }); 
+Route::get('/dashboard', function () {
+    return redirect('/');
+}); 
 
 Route::get('admin/login', [AuthController::class,'formLogin'])->name('formLogin');
 Route::post('admin/setlogin', [AuthController::class,'login'])->name('setLogin');
